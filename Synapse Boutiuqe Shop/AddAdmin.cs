@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Synapse_Boutiuqe_Shop
 {
-    public partial class UserInformation : Form
+    public partial class AddAdmin : Form
     {
-        public UserInformation()
+        public AddAdmin()
         {
             InitializeComponent();
-        }
-
-        private void UserInformation_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,16 +22,16 @@ namespace Synapse_Boutiuqe_Shop
             this.Close();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
         private void button9_Click(object sender, EventArgs e)
         {
             AdminHomePage adminHomePage = new AdminHomePage();
             adminHomePage.Show();
             this.Hide();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

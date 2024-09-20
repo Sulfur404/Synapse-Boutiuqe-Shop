@@ -41,5 +41,54 @@ namespace Synapse_Boutiuqe_Shop
             this.WindowState = FormWindowState.Minimized;
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            UserInformation userInformation = new UserInformation();
+            userInformation.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Contribute contribute = new Contribute();
+            contribute.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Contribute contribute = new Contribute();
+            contribute.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddUser addUser = new AddUser();
+            addUser.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddUser addUser = new AddUser();
+            addUser.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddAdmin addAdmin = new AddAdmin();
+            addAdmin.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AddAdmin addAdmin = new AddAdmin();
+            addAdmin.Show();
+            this.Hide();
+        }
     }
 }

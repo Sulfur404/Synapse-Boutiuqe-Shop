@@ -56,6 +56,7 @@
             button1.Size = new Size(243, 190);
             button1.TabIndex = 0;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -71,6 +72,7 @@
             button2.Size = new Size(243, 190);
             button2.TabIndex = 0;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -86,6 +88,7 @@
             button3.Size = new Size(243, 190);
             button3.TabIndex = 1;
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -119,6 +122,7 @@
             button5.TabIndex = 3;
             button5.Text = "User Imformation";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -135,6 +139,7 @@
             button6.TabIndex = 4;
             button6.Text = "Add User";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -151,6 +156,7 @@
             button7.TabIndex = 5;
             button7.Text = "Add Admin";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -167,6 +173,7 @@
             button8.TabIndex = 6;
             button8.Text = "Admin Imformation";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
