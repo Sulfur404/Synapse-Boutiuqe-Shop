@@ -54,5 +54,16 @@ namespace Synapse_Boutiuqe_Shop
             homePage.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+        }
     }
 }

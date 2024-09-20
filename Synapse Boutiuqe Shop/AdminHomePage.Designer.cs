@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminHomePage));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -37,6 +38,8 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -182,6 +185,38 @@
             button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
             // 
+            // button10
+            // 
+            button10.BackColor = Color.Transparent;
+            button10.Cursor = Cursors.Hand;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button10.ForeColor = SystemColors.ActiveBorder;
+            button10.Location = new Point(1311, -12);
+            button10.Name = "button10";
+            button10.Size = new Size(35, 59);
+            button10.TabIndex = 9;
+            button10.Text = "-";
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.Transparent;
+            button11.Cursor = Cursors.Hand;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button11.ForeColor = SystemColors.AppWorkspace;
+            button11.Location = new Point(1341, 0);
+            button11.Name = "button11";
+            button11.Size = new Size(32, 38);
+            button11.TabIndex = 8;
+            button11.Text = "X";
+            button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
+            // 
             // AdminHomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -190,6 +225,8 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             CausesValidation = false;
             ClientSize = new Size(1384, 811);
+            Controls.Add(button10);
+            Controls.Add(button11);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -199,7 +236,8 @@
             Controls.Add(button4);
             Controls.Add(button2);
             Controls.Add(button1);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             Name = "AdminHomePage";
             ShowIcon = false;
@@ -220,5 +258,7 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Button button10;
+        private Button button11;
     }
 }

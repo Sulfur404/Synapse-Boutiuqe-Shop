@@ -26,6 +26,19 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button4_Click(object sender, EventArgs e)
         {
+            UserInformation userInformation = new UserInformation();
+            userInformation.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
 
         }
     }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminLogin));
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
@@ -44,6 +45,8 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -159,10 +162,10 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(10, 9);
+            button1.Location = new Point(1, 9);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(51, 37);
+            button1.Size = new Size(36, 37);
             button1.TabIndex = 3;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -223,6 +226,38 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.Cursor = Cursors.Hand;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.DimGray;
+            button3.Location = new Point(1310, -9);
+            button3.Name = "button3";
+            button3.Size = new Size(35, 59);
+            button3.TabIndex = 8;
+            button3.Text = "-";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Transparent;
+            button4.Cursor = Cursors.Hand;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.DimGray;
+            button4.Location = new Point(1340, 3);
+            button4.Name = "button4";
+            button4.Size = new Size(32, 38);
+            button4.TabIndex = 7;
+            button4.Text = "X";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
             // AdminLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -230,6 +265,8 @@
             BackgroundImage = Properties.Resources.AdminLogin;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1384, 811);
+            Controls.Add(button3);
+            Controls.Add(button4);
             Controls.Add(button2);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -244,7 +281,8 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             Name = "AdminLogin";
             StartPosition = FormStartPosition.CenterScreen;
@@ -274,5 +312,7 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button2;
+        private Button button3;
+        private Button button4;
     }
 }

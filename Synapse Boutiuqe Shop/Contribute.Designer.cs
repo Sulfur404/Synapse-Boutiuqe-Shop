@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Contribute));
             button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -47,6 +50,36 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(1310, -9);
+            button2.Name = "button2";
+            button2.Size = new Size(35, 59);
+            button2.TabIndex = 3;
+            button2.Text = "-";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.Cursor = Cursors.Hand;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(1340, 3);
+            button3.Name = "button3";
+            button3.Size = new Size(32, 38);
+            button3.TabIndex = 2;
+            button3.Text = "X";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Contribute
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -54,9 +87,13 @@
             BackgroundImage = Properties.Resources.Contritute;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1384, 811);
+            Controls.Add(button2);
+            Controls.Add(button3);
             Controls.Add(button1);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            ForeColor = Color.FromArgb(64, 64, 0);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
             Name = "Contribute";
             StartPosition = FormStartPosition.CenterScreen;
@@ -67,5 +104,7 @@
 
         #endregion
         private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
