@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Synapse_Boutiuqe_Shop
 {
@@ -67,6 +68,42 @@ namespace Synapse_Boutiuqe_Shop
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void AddUser_Load(object sender, EventArgs e)
+        {
+            LoginForm.BackColor = Color.FromArgb(100, 0, 0, 0);
+        }
+
+        private void namebox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string conntionstring = "Data Source=MOSTAFI-NAFIS\\SQLEXPRESS;Initial Catalog=\"Synapse Boutiuqe Shop\";Integrated Security=True;Trust Server Certificate=True;";
+            SqlConnection con = new SqlConnection(conntionstring);
+            con.Open();
+
+            string name = firstname.Text + lastname.Text;
+            string user = username.Text;
+            string pass = password.Text;
+            string dateof = date.Text;
+            string Email = email.Text;
+            string question = comboBox1.Text;
+            string qanswer = answer.Text;
+
+
+            string query = "INSERT INTO [User Information] (Name, [User Name], Password, [Date Of Birth], Email, [Security Question], [User Question Answer]) VALUES ('" + name + "', '" + user + "', '" + pass + "', '" + dateof + "', '" + Email + "', '" + question + "', '" + qanswer + "')";
+
+            SqlCommand cmd = new SqlCommand(query, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+
+            MessageBox.Show("All Data Insert");
         }
     }
 }

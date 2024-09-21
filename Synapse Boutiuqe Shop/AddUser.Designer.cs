@@ -32,8 +32,16 @@
             button9 = new Button();
             button2 = new Button();
             button1 = new Button();
-            panel1 = new Panel();
-            button3 = new Button();
+            LoginForm = new Panel();
+            username = new TextBox();
+            password = new TextBox();
+            answer = new TextBox();
+            captcha = new TextBox();
+            email = new TextBox();
+            date = new TextBox();
+            lastname = new TextBox();
+            firstname = new TextBox();
+            adduseerBtn = new Button();
             label20 = new Label();
             label19 = new Label();
             label18 = new Label();
@@ -60,7 +68,7 @@
             label4 = new Label();
             label3 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            panel1.SuspendLayout();
+            LoginForm.SuspendLayout();
             SuspendLayout();
             // 
             // button9
@@ -112,62 +120,176 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // panel1
+            // LoginForm
             // 
-            panel1.BackColor = Color.Transparent;
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(label20);
-            panel1.Controls.Add(label19);
-            panel1.Controls.Add(label18);
-            panel1.Controls.Add(label17);
-            panel1.Controls.Add(comboBox2);
-            panel1.Controls.Add(label16);
-            panel1.Controls.Add(label14);
-            panel1.Controls.Add(label15);
-            panel1.Controls.Add(label12);
-            panel1.Controls.Add(label13);
-            panel1.Controls.Add(label10);
-            panel1.Controls.Add(label11);
-            panel1.Controls.Add(radioButton3);
-            panel1.Controls.Add(radioButton2);
-            panel1.Controls.Add(radioButton1);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(comboBox1);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.ForeColor = SystemColors.ButtonHighlight;
-            panel1.Location = new Point(400, 34);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(613, 745);
-            panel1.TabIndex = 12;
-            panel1.Paint += panel1_Paint;
+            LoginForm.BackColor = Color.Transparent;
+            LoginForm.Controls.Add(username);
+            LoginForm.Controls.Add(password);
+            LoginForm.Controls.Add(answer);
+            LoginForm.Controls.Add(captcha);
+            LoginForm.Controls.Add(email);
+            LoginForm.Controls.Add(date);
+            LoginForm.Controls.Add(lastname);
+            LoginForm.Controls.Add(firstname);
+            LoginForm.Controls.Add(adduseerBtn);
+            LoginForm.Controls.Add(label20);
+            LoginForm.Controls.Add(label19);
+            LoginForm.Controls.Add(label18);
+            LoginForm.Controls.Add(label17);
+            LoginForm.Controls.Add(comboBox2);
+            LoginForm.Controls.Add(label16);
+            LoginForm.Controls.Add(label14);
+            LoginForm.Controls.Add(label15);
+            LoginForm.Controls.Add(label12);
+            LoginForm.Controls.Add(label13);
+            LoginForm.Controls.Add(label10);
+            LoginForm.Controls.Add(label11);
+            LoginForm.Controls.Add(radioButton3);
+            LoginForm.Controls.Add(radioButton2);
+            LoginForm.Controls.Add(radioButton1);
+            LoginForm.Controls.Add(label9);
+            LoginForm.Controls.Add(label1);
+            LoginForm.Controls.Add(label2);
+            LoginForm.Controls.Add(comboBox1);
+            LoginForm.Controls.Add(label7);
+            LoginForm.Controls.Add(label8);
+            LoginForm.Controls.Add(label6);
+            LoginForm.Controls.Add(label5);
+            LoginForm.Controls.Add(label4);
+            LoginForm.Controls.Add(label3);
+            LoginForm.ForeColor = SystemColors.ButtonHighlight;
+            LoginForm.Location = new Point(400, 34);
+            LoginForm.Name = "LoginForm";
+            LoginForm.Size = new Size(613, 745);
+            LoginForm.TabIndex = 12;
+            LoginForm.Paint += panel1_Paint;
             // 
-            // button3
+            // username
             // 
-            button3.BackgroundImage = Properties.Resources.Adduser2;
-            button3.BackgroundImageLayout = ImageLayout.Stretch;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = Color.Transparent;
-            button3.Location = new Point(256, 669);
-            button3.Name = "button3";
-            button3.Size = new Size(123, 53);
-            button3.TabIndex = 29;
-            button3.UseVisualStyleBackColor = true;
+            username.BackColor = Color.FromArgb(16, 26, 43);
+            username.BorderStyle = BorderStyle.None;
+            username.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            username.ForeColor = SystemColors.ButtonHighlight;
+            username.Location = new Point(43, 428);
+            username.Margin = new Padding(3, 2, 3, 2);
+            username.Multiline = true;
+            username.Name = "username";
+            username.Size = new Size(201, 24);
+            username.TabIndex = 36;
+            // 
+            // password
+            // 
+            password.BackColor = Color.FromArgb(16, 26, 43);
+            password.BorderStyle = BorderStyle.None;
+            password.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            password.ForeColor = SystemColors.ButtonHighlight;
+            password.Location = new Point(349, 428);
+            password.Margin = new Padding(3, 2, 3, 2);
+            password.Multiline = true;
+            password.Name = "password";
+            password.Size = new Size(201, 24);
+            password.TabIndex = 35;
+            // 
+            // answer
+            // 
+            answer.BackColor = Color.FromArgb(16, 26, 43);
+            answer.BorderStyle = BorderStyle.None;
+            answer.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            answer.ForeColor = SystemColors.ButtonHighlight;
+            answer.Location = new Point(42, 571);
+            answer.Margin = new Padding(3, 2, 3, 2);
+            answer.Multiline = true;
+            answer.Name = "answer";
+            answer.Size = new Size(201, 24);
+            answer.TabIndex = 34;
+            // 
+            // captcha
+            // 
+            captcha.BackColor = Color.FromArgb(16, 26, 43);
+            captcha.BorderStyle = BorderStyle.None;
+            captcha.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            captcha.ForeColor = SystemColors.ButtonHighlight;
+            captcha.Location = new Point(160, 627);
+            captcha.Margin = new Padding(3, 2, 3, 2);
+            captcha.Multiline = true;
+            captcha.Name = "captcha";
+            captcha.Size = new Size(75, 24);
+            captcha.TabIndex = 33;
+            captcha.TextChanged += namebox_TextChanged;
+            // 
+            // email
+            // 
+            email.BackColor = Color.FromArgb(16, 26, 43);
+            email.BorderStyle = BorderStyle.None;
+            email.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            email.ForeColor = SystemColors.ButtonHighlight;
+            email.Location = new Point(43, 333);
+            email.Margin = new Padding(3, 2, 3, 2);
+            email.Multiline = true;
+            email.Name = "email";
+            email.Size = new Size(243, 24);
+            email.TabIndex = 32;
+            // 
+            // date
+            // 
+            date.BackColor = Color.FromArgb(16, 26, 43);
+            date.BorderStyle = BorderStyle.None;
+            date.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date.ForeColor = SystemColors.ButtonHighlight;
+            date.Location = new Point(42, 189);
+            date.Margin = new Padding(3, 2, 3, 2);
+            date.Multiline = true;
+            date.Name = "date";
+            date.Size = new Size(244, 24);
+            date.TabIndex = 31;
+            // 
+            // lastname
+            // 
+            lastname.BackColor = Color.FromArgb(16, 26, 43);
+            lastname.BorderStyle = BorderStyle.None;
+            lastname.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lastname.ForeColor = SystemColors.ButtonHighlight;
+            lastname.Location = new Point(349, 106);
+            lastname.Margin = new Padding(3, 2, 3, 2);
+            lastname.Multiline = true;
+            lastname.Name = "lastname";
+            lastname.Size = new Size(201, 24);
+            lastname.TabIndex = 30;
+            // 
+            // firstname
+            // 
+            firstname.BackColor = Color.FromArgb(16, 26, 43);
+            firstname.BorderStyle = BorderStyle.None;
+            firstname.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            firstname.ForeColor = SystemColors.ButtonHighlight;
+            firstname.Location = new Point(43, 106);
+            firstname.Margin = new Padding(3, 2, 3, 2);
+            firstname.Multiline = true;
+            firstname.Name = "firstname";
+            firstname.Size = new Size(201, 24);
+            firstname.TabIndex = 13;
+            // 
+            // adduseerBtn
+            // 
+            adduseerBtn.BackgroundImage = Properties.Resources.Adduser2;
+            adduseerBtn.BackgroundImageLayout = ImageLayout.Stretch;
+            adduseerBtn.Cursor = Cursors.Hand;
+            adduseerBtn.FlatAppearance.BorderSize = 0;
+            adduseerBtn.FlatStyle = FlatStyle.Flat;
+            adduseerBtn.ForeColor = Color.Transparent;
+            adduseerBtn.Location = new Point(256, 669);
+            adduseerBtn.Name = "adduseerBtn";
+            adduseerBtn.Size = new Size(123, 53);
+            adduseerBtn.TabIndex = 29;
+            adduseerBtn.UseVisualStyleBackColor = true;
+            adduseerBtn.Click += button3_Click;
             // 
             // label20
             // 
             label20.AutoSize = true;
             label20.BackColor = Color.Transparent;
             label20.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label20.Location = new Point(169, 620);
+            label20.Location = new Point(160, 632);
             label20.Name = "label20";
             label20.Size = new Size(84, 25);
             label20.TabIndex = 28;
@@ -178,7 +300,7 @@
             label19.AutoSize = true;
             label19.BackColor = Color.Transparent;
             label19.Font = new Font("Segoe UI Semilight", 13F);
-            label19.Location = new Point(39, 620);
+            label19.Location = new Point(39, 627);
             label19.Name = "label19";
             label19.Size = new Size(75, 25);
             label19.TabIndex = 27;
@@ -469,7 +591,7 @@
             BackgroundImage = Properties.Resources.AdminBlur;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1384, 811);
-            Controls.Add(panel1);
+            Controls.Add(LoginForm);
             Controls.Add(button9);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -479,8 +601,9 @@
             Name = "AddUser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AddUser";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += AddUser_Load;
+            LoginForm.ResumeLayout(false);
+            LoginForm.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -489,7 +612,7 @@
         private Button button9;
         private Button button2;
         private Button button1;
-        private Panel panel1;
+        private Panel LoginForm;
         private Label label4;
         private Label label3;
         private Label label7;
@@ -516,6 +639,14 @@
         private Label label19;
         private Label label18;
         private Label label17;
-        private Button button3;
+        private Button adduseerBtn;
+        private TextBox firstname;
+        private TextBox lastname;
+        private TextBox username;
+        private TextBox password;
+        private TextBox answer;
+        private TextBox captcha;
+        private TextBox email;
+        private TextBox date;
     }
 }
