@@ -57,10 +57,9 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.mainlogoN;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(191, 167);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(218, 223);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(560, 415);
+            pictureBox1.Size = new Size(640, 553);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -69,9 +68,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(909, 233);
+            label1.Location = new Point(1039, 311);
             label1.Name = "label1";
-            label1.Size = new Size(273, 51);
+            label1.Size = new Size(337, 62);
             label1.TabIndex = 1;
             label1.Text = " Admin Log In";
             // 
@@ -80,9 +79,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semilight", 14F);
-            label2.Location = new Point(948, 284);
+            label2.Location = new Point(1083, 379);
             label2.Name = "label2";
-            label2.Size = new Size(196, 25);
+            label2.Size = new Size(244, 32);
             label2.TabIndex = 1;
             label2.Text = "Welcome! To Synapse ";
             // 
@@ -91,9 +90,9 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(958, 357);
+            label3.Location = new Point(1095, 476);
             label3.Name = "label3";
-            label3.Size = new Size(204, 25);
+            label3.Size = new Size(254, 31);
             label3.TabIndex = 1;
             label3.Text = "________________________";
             // 
@@ -102,9 +101,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semilight", 13F);
-            label4.Location = new Point(1005, 381);
+            label4.Location = new Point(1149, 508);
             label4.Name = "label4";
-            label4.Size = new Size(107, 25);
+            label4.Size = new Size(130, 30);
             label4.TabIndex = 1;
             label4.Text = "  User Name";
             // 
@@ -113,10 +112,9 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = Properties.Resources.user;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(925, 347);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Location = new Point(1057, 463);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(28, 24);
+            pictureBox2.Size = new Size(32, 32);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
@@ -125,9 +123,9 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI Semilight", 14F);
-            label5.Location = new Point(958, 422);
+            label5.Location = new Point(1095, 563);
             label5.Name = "label5";
-            label5.Size = new Size(204, 25);
+            label5.Size = new Size(254, 32);
             label5.TabIndex = 1;
             label5.Text = "________________________";
             // 
@@ -136,9 +134,9 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI Semilight", 13F);
-            label6.Location = new Point(1020, 446);
+            label6.Location = new Point(1166, 595);
             label6.Name = "label6";
-            label6.Size = new Size(83, 25);
+            label6.Size = new Size(101, 30);
             label6.TabIndex = 1;
             label6.Text = "Password";
             // 
@@ -147,10 +145,9 @@
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImage = Properties.Resources.Passicon;
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(925, 413);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Location = new Point(1057, 551);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(28, 24);
+            pictureBox3.Size = new Size(32, 32);
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             // 
@@ -162,10 +159,9 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(1, 9);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(1, 12);
             button1.Name = "button1";
-            button1.Size = new Size(36, 37);
+            button1.Size = new Size(41, 49);
             button1.TabIndex = 3;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -188,11 +184,10 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Black;
-            textBox1.Location = new Point(967, 347);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
+            textBox1.Location = new Point(1105, 463);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(201, 24);
+            textBox1.Size = new Size(230, 32);
             textBox1.TabIndex = 4;
             textBox1.TextChanged += textBox1_TextChanged_1;
             // 
@@ -201,12 +196,11 @@
             textBox2.BackColor = Color.FromArgb(207, 216, 227);
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(967, 413);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
+            textBox2.Location = new Point(1105, 551);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
-            textBox2.Size = new Size(201, 24);
+            textBox2.Size = new Size(230, 32);
             textBox2.TabIndex = 5;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
@@ -218,10 +212,9 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(1001, 497);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(1144, 663);
             button2.Name = "button2";
-            button2.Size = new Size(132, 61);
+            button2.Size = new Size(151, 81);
             button2.TabIndex = 6;
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
@@ -234,9 +227,10 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.DimGray;
-            button3.Location = new Point(1310, -9);
+            button3.Location = new Point(1497, -12);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(35, 59);
+            button3.Size = new Size(40, 79);
             button3.TabIndex = 8;
             button3.Text = "-";
             button3.UseVisualStyleBackColor = false;
@@ -250,9 +244,10 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.DimGray;
-            button4.Location = new Point(1340, 3);
+            button4.Location = new Point(1531, 4);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(32, 38);
+            button4.Size = new Size(37, 51);
             button4.TabIndex = 7;
             button4.Text = "X";
             button4.UseVisualStyleBackColor = false;
@@ -260,11 +255,11 @@
             // 
             // AdminLogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.AdminLogin;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1384, 811);
+            ClientSize = new Size(1582, 1081);
             Controls.Add(button3);
             Controls.Add(button4);
             Controls.Add(button2);
@@ -283,7 +278,6 @@
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 2, 3, 2);
             Name = "AdminLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminLogin";

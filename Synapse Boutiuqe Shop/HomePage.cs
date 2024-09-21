@@ -52,6 +52,11 @@ namespace Synapse_Boutiuqe_Shop
         {
             this.Close();
         }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
