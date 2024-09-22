@@ -73,6 +73,27 @@ namespace Synapse_Boutiuqe_Shop
         private void AddUser_Load(object sender, EventArgs e)
         {
             LoginForm.BackColor = Color.FromArgb(100, 0, 0, 0);
+            Random random = new Random();
+            int num = random.Next(6,8);
+            int total = 0; 
+            string captcha = "";
+            do
+            {
+                int chr = random.Next(48, 123);
+                if((chr >= 48 && chr <= 57) || (chr >=65 && chr <= 90) || (chr >= 97 && chr <= 122))
+                {
+                    captcha += (char)chr;
+                    total++;
+                    if(total == num)
+                        break;
+                    {
+
+                    }
+        
+                }
+            } while (true);
+            lbcaptcha.Text = captcha;
+
         }
 
         private void namebox_TextChanged(object sender, EventArgs e)
@@ -82,28 +103,68 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string conntionstring = "Data Source=MOSTAFI-NAFIS\\SQLEXPRESS;Initial Catalog=\"Synapse Boutiuqe Shop\";Integrated Security=True;Trust Server Certificate=True;";
-            SqlConnection con = new SqlConnection(conntionstring);
-            con.Open();
+            if (!string.IsNullOrEmpty(firstname.Text) &&
+                !string.IsNullOrEmpty(lastname.Text) &&
+                !string.IsNullOrEmpty(date.Text) &&
+                !string.IsNullOrEmpty(comboBox1.Text) &&
+                !string.IsNullOrEmpty(comboBox2.Text) &&
+                !string.IsNullOrEmpty(radioButton1.Text) &&
+                !string.IsNullOrEmpty(username.Text) &&
+                !string.IsNullOrEmpty(password.Text) &&
+                !string.IsNullOrEmpty(answer.Text) &&
+                !string.IsNullOrEmpty(captcha.Text) &&
+                !string.IsNullOrEmpty(email.Text))
+            {
+                
+                if (lbcaptcha.Text != captcha.Text)
+                {
+                    MessageBox.Show("Captcha is Incorrect! Please try again", "Warning!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return; 
+                }
 
-            string name = firstname.Text + lastname.Text;
-            string user = username.Text;
-            string pass = password.Text;
-            string dateof = date.Text;
-            string Email = email.Text;
-            string question = comboBox1.Text;
-            string qanswer = answer.Text;
+                
+                string connectionString = "Data Source=MOSTAFI-NAFIS\\SQLEXPRESS;Initial Catalog=\"Synapse Boutiuqe Shop\";Integrated Security=True;";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        con.Open();
 
+                        string query = "INSERT INTO [User Information] (Name, [User Name], Password, [Date Of Birth], Email, [Security Question], [User Question Answer]) " +
+                                       "VALUES (@name, @user, @pass, @dateof, @Email, @question, @qanswer)";
 
-            string query = "INSERT INTO [User Information] (Name, [User Name], Password, [Date Of Birth], Email, [Security Question], [User Question Answer]) VALUES ('" + name + "', '" + user + "', '" + pass + "', '" + dateof + "', '" + Email + "', '" + question + "', '" + qanswer + "')";
+                        SqlCommand cmd = new SqlCommand(query, con);
 
-            SqlCommand cmd = new SqlCommand(query, con);
+                        cmd.Parameters.AddWithValue("@name", firstname.Text + " " + lastname.Text); // Added space between first and last name
+                        cmd.Parameters.AddWithValue("@user", username.Text);
+                        cmd.Parameters.AddWithValue("@pass", password.Text);
+                        cmd.Parameters.AddWithValue("@dateof", date.Text);
+                        cmd.Parameters.AddWithValue("@Email", email.Text);
+                        cmd.Parameters.AddWithValue("@question", comboBox1.Text);
+                        cmd.Parameters.AddWithValue("@qanswer", answer.Text);
 
-            cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
 
-            con.Close();
-
-            MessageBox.Show("All Data Insert");
+                DialogResult result = MessageBox.Show("Are you sure you want to insert all information?", "Confirmation", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    AdminHomePage adminHomePage = new AdminHomePage();
+                    adminHomePage.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please fill up all required information.", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
+
     }
 }

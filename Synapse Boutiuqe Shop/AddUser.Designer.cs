@@ -33,12 +33,13 @@
             button2 = new Button();
             button1 = new Button();
             LoginForm = new Panel();
+            lbcaptcha = new Label();
             username = new TextBox();
             password = new TextBox();
             answer = new TextBox();
             captcha = new TextBox();
-            email = new TextBox();
             date = new TextBox();
+            email = new TextBox();
             lastname = new TextBox();
             firstname = new TextBox();
             adduseerBtn = new Button();
@@ -123,12 +124,13 @@
             // LoginForm
             // 
             LoginForm.BackColor = Color.Transparent;
+            LoginForm.Controls.Add(lbcaptcha);
             LoginForm.Controls.Add(username);
             LoginForm.Controls.Add(password);
             LoginForm.Controls.Add(answer);
             LoginForm.Controls.Add(captcha);
-            LoginForm.Controls.Add(email);
             LoginForm.Controls.Add(date);
+            LoginForm.Controls.Add(email);
             LoginForm.Controls.Add(lastname);
             LoginForm.Controls.Add(firstname);
             LoginForm.Controls.Add(adduseerBtn);
@@ -164,6 +166,18 @@
             LoginForm.TabIndex = 12;
             LoginForm.Paint += panel1_Paint;
             // 
+            // lbcaptcha
+            // 
+            lbcaptcha.AutoSize = true;
+            lbcaptcha.BackColor = Color.Transparent;
+            lbcaptcha.Font = new Font("Lucida Handwriting", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbcaptcha.ForeColor = Color.LightCoral;
+            lbcaptcha.Location = new Point(118, 628);
+            lbcaptcha.Name = "lbcaptcha";
+            lbcaptcha.Size = new Size(105, 24);
+            lbcaptcha.TabIndex = 37;
+            lbcaptcha.Text = "Captcha";
+            // 
             // username
             // 
             username.BackColor = Color.FromArgb(16, 26, 43);
@@ -174,7 +188,7 @@
             username.Margin = new Padding(3, 2, 3, 2);
             username.Multiline = true;
             username.Name = "username";
-            username.Size = new Size(201, 24);
+            username.Size = new Size(194, 24);
             username.TabIndex = 36;
             // 
             // password
@@ -187,7 +201,7 @@
             password.Margin = new Padding(3, 2, 3, 2);
             password.Multiline = true;
             password.Name = "password";
-            password.Size = new Size(201, 24);
+            password.Size = new Size(196, 24);
             password.TabIndex = 35;
             // 
             // answer
@@ -200,7 +214,7 @@
             answer.Margin = new Padding(3, 2, 3, 2);
             answer.Multiline = true;
             answer.Name = "answer";
-            answer.Size = new Size(201, 24);
+            answer.Size = new Size(245, 24);
             answer.TabIndex = 34;
             // 
             // captcha
@@ -209,13 +223,26 @@
             captcha.BorderStyle = BorderStyle.None;
             captcha.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             captcha.ForeColor = SystemColors.ButtonHighlight;
-            captcha.Location = new Point(160, 627);
+            captcha.Location = new Point(237, 627);
             captcha.Margin = new Padding(3, 2, 3, 2);
             captcha.Multiline = true;
             captcha.Name = "captcha";
-            captcha.Size = new Size(75, 24);
+            captcha.Size = new Size(147, 24);
             captcha.TabIndex = 33;
             captcha.TextChanged += namebox_TextChanged;
+            // 
+            // date
+            // 
+            date.BackColor = Color.FromArgb(16, 26, 43);
+            date.BorderStyle = BorderStyle.None;
+            date.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date.ForeColor = SystemColors.ButtonHighlight;
+            date.Location = new Point(43, 189);
+            date.Margin = new Padding(3, 2, 3, 2);
+            date.Multiline = true;
+            date.Name = "date";
+            date.Size = new Size(248, 24);
+            date.TabIndex = 31;
             // 
             // email
             // 
@@ -230,19 +257,6 @@
             email.Size = new Size(243, 24);
             email.TabIndex = 32;
             // 
-            // date
-            // 
-            date.BackColor = Color.FromArgb(16, 26, 43);
-            date.BorderStyle = BorderStyle.None;
-            date.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            date.ForeColor = SystemColors.ButtonHighlight;
-            date.Location = new Point(42, 189);
-            date.Margin = new Padding(3, 2, 3, 2);
-            date.Multiline = true;
-            date.Name = "date";
-            date.Size = new Size(244, 24);
-            date.TabIndex = 31;
-            // 
             // lastname
             // 
             lastname.BackColor = Color.FromArgb(16, 26, 43);
@@ -253,7 +267,7 @@
             lastname.Margin = new Padding(3, 2, 3, 2);
             lastname.Multiline = true;
             lastname.Name = "lastname";
-            lastname.Size = new Size(201, 24);
+            lastname.Size = new Size(196, 24);
             lastname.TabIndex = 30;
             // 
             // firstname
@@ -266,7 +280,7 @@
             firstname.Margin = new Padding(3, 2, 3, 2);
             firstname.Multiline = true;
             firstname.Name = "firstname";
-            firstname.Size = new Size(201, 24);
+            firstname.Size = new Size(194, 24);
             firstname.TabIndex = 13;
             // 
             // adduseerBtn
@@ -289,11 +303,11 @@
             label20.AutoSize = true;
             label20.BackColor = Color.Transparent;
             label20.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label20.Location = new Point(160, 632);
+            label20.Location = new Point(232, 632);
             label20.Name = "label20";
-            label20.Size = new Size(84, 25);
+            label20.Size = new Size(156, 25);
             label20.TabIndex = 28;
-            label20.Text = "_________";
+            label20.Text = "__________________";
             // 
             // label19
             // 
@@ -302,9 +316,9 @@
             label19.Font = new Font("Segoe UI Semilight", 13F);
             label19.Location = new Point(39, 627);
             label19.Name = "label19";
-            label19.Size = new Size(75, 25);
+            label19.Size = new Size(84, 25);
             label19.TabIndex = 27;
-            label19.Text = "Captcha";
+            label19.Text = "Captcha :";
             // 
             // label18
             // 
@@ -648,5 +662,6 @@
         private TextBox captcha;
         private TextBox email;
         private TextBox date;
+        private Label lbcaptcha;
     }
 }
