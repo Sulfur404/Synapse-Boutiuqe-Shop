@@ -73,5 +73,10 @@ namespace Synapse_Boutiuqe_Shop
         {
 
         }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

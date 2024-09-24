@@ -50,5 +50,12 @@ namespace Synapse_Boutiuqe_Shop
             signUp.Show();
             this.Hide();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Interface01 interface01 = new Interface01();
+            interface01.Show();
+            this.Hide() ;
+        }
     }
 }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             panel1 = new Panel();
+            textBox6 = new TextBox();
             textBox8 = new TextBox();
             textBox7 = new TextBox();
             textBox5 = new TextBox();
@@ -65,7 +66,6 @@
             button1 = new Button();
             button4 = new Button();
             button5 = new Button();
-            textBox6 = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -110,6 +110,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(756, 753);
             panel1.TabIndex = 0;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = SystemColors.Control;
+            textBox6.BorderStyle = BorderStyle.None;
+            textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox6.Location = new Point(428, 396);
+            textBox6.Multiline = true;
+            textBox6.Name = "textBox6";
+            textBox6.PasswordChar = '*';
+            textBox6.Size = new Size(248, 32);
+            textBox6.TabIndex = 45;
             // 
             // textBox8
             // 
@@ -559,24 +571,12 @@
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
-            // textBox6
-            // 
-            textBox6.BackColor = SystemColors.Control;
-            textBox6.BorderStyle = BorderStyle.None;
-            textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(428, 396);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.PasswordChar = '*';
-            textBox6.Size = new Size(248, 32);
-            textBox6.TabIndex = 45;
-            // 
             // SignUp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.SignupBackground6;
-            ClientSize = new Size(1382, 803);
+            ClientSize = new Size(1382, 929);
             Controls.Add(button4);
             Controls.Add(button5);
             Controls.Add(button1);
@@ -584,7 +584,9 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "SignUp";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUp";
+            Load += SignUp_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

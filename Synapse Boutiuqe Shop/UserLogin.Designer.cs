@@ -176,6 +176,7 @@
             button6.Size = new Size(151, 81);
             button6.TabIndex = 33;
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // textBox2
             // 
