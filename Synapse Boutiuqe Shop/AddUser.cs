@@ -73,6 +73,7 @@ namespace Synapse_Boutiuqe_Shop
         private void AddUser_Load(object sender, EventArgs e)
         {
             LoginForm.BackColor = Color.FromArgb(100, 0, 0, 0);
+
             Random random = new Random();
             int num = random.Next(6,8);
             int total = 0; 
@@ -135,12 +136,12 @@ namespace Synapse_Boutiuqe_Shop
 
                         SqlCommand cmd = new SqlCommand(query, con);
 
-                        cmd.Parameters.AddWithValue("@name", firstname.Text + " " + lastname.Text); // Added space between first and last name
+                        cmd.Parameters.AddWithValue("@name", firstname.Text + " " + lastname.Text);
                         cmd.Parameters.AddWithValue("@user", username.Text);
                         cmd.Parameters.AddWithValue("@pass", password.Text);
                         cmd.Parameters.AddWithValue("@dateof", date.Text);
                         cmd.Parameters.AddWithValue("@Email", email.Text);
-                        cmd.Parameters.AddWithValue("@question", comboBox1.Text);
+                        cmd.Parameters.AddWithValue("@question", comboBox2.Text);
                         cmd.Parameters.AddWithValue("@qanswer", answer.Text);
 
                         cmd.ExecuteNonQuery();

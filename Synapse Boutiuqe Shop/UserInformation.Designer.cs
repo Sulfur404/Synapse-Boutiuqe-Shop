@@ -32,13 +32,24 @@
             button1 = new Button();
             button2 = new Button();
             panel1 = new Panel();
-            button3 = new Button();
+            panel4 = new Panel();
+            updatebtn2 = new Button();
+            updatebtn1 = new Button();
+            panel3 = new Panel();
+            showbtn2 = new Button();
+            showbtn1 = new Button();
+            panel2 = new Panel();
+            deletebtn2 = new Button();
+            deletebtn1 = new Button();
+            dataGridView1 = new DataGridView();
             label2 = new Label();
             label1 = new Label();
-            hScrollBar1 = new HScrollBar();
-            tableLayoutPanel1 = new TableLayoutPanel();
             button9 = new Button();
             panel1.SuspendLayout();
+            panel4.SuspendLayout();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -75,38 +86,152 @@
             // 
             // panel1
             // 
+            panel1.BackColor = Color.Transparent;
             panel1.BackgroundImage = Properties.Resources.tableback;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(button3);
+            panel1.Controls.Add(panel4);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(dataGridView1);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(hScrollBar1);
-            panel1.Controls.Add(tableLayoutPanel1);
-            panel1.Location = new Point(249, 130);
+            panel1.Location = new Point(196, 78);
             panel1.Name = "panel1";
-            panel1.Size = new Size(907, 556);
+            panel1.Size = new Size(1036, 661);
             panel1.TabIndex = 2;
             // 
-            // button3
+            // panel4
             // 
-            button3.BackColor = SystemColors.Control;
-            button3.BackgroundImage = Properties.Resources.Deletuser2;
-            button3.BackgroundImageLayout = ImageLayout.Stretch;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(439, 481);
-            button3.Name = "button3";
-            button3.Size = new Size(64, 62);
-            button3.TabIndex = 4;
-            button3.UseVisualStyleBackColor = false;
+            panel4.Controls.Add(updatebtn2);
+            panel4.Controls.Add(updatebtn1);
+            panel4.Location = new Point(748, 527);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(120, 115);
+            panel4.TabIndex = 7;
+            // 
+            // updatebtn2
+            // 
+            updatebtn2.Cursor = Cursors.Hand;
+            updatebtn2.FlatAppearance.BorderSize = 0;
+            updatebtn2.FlatStyle = FlatStyle.Flat;
+            updatebtn2.Font = new Font("Lucida Handwriting", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            updatebtn2.Location = new Point(3, 70);
+            updatebtn2.Name = "updatebtn2";
+            updatebtn2.Size = new Size(114, 42);
+            updatebtn2.TabIndex = 5;
+            updatebtn2.Text = "Update";
+            updatebtn2.UseVisualStyleBackColor = true;
+            // 
+            // updatebtn1
+            // 
+            updatebtn1.BackColor = Color.Transparent;
+            updatebtn1.BackgroundImage = Properties.Resources.Update;
+            updatebtn1.BackgroundImageLayout = ImageLayout.Stretch;
+            updatebtn1.Cursor = Cursors.Hand;
+            updatebtn1.DialogResult = DialogResult.No;
+            updatebtn1.FlatAppearance.BorderSize = 0;
+            updatebtn1.FlatStyle = FlatStyle.Flat;
+            updatebtn1.Location = new Point(28, 3);
+            updatebtn1.Name = "updatebtn1";
+            updatebtn1.Size = new Size(63, 70);
+            updatebtn1.TabIndex = 4;
+            updatebtn1.UseVisualStyleBackColor = false;
+            updatebtn1.Click += updatebtn1_Click;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(showbtn2);
+            panel3.Controls.Add(showbtn1);
+            panel3.Location = new Point(179, 527);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(120, 115);
+            panel3.TabIndex = 7;
+            // 
+            // showbtn2
+            // 
+            showbtn2.Cursor = Cursors.Hand;
+            showbtn2.FlatAppearance.BorderSize = 0;
+            showbtn2.FlatStyle = FlatStyle.Flat;
+            showbtn2.Font = new Font("Lucida Handwriting", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            showbtn2.Location = new Point(3, 70);
+            showbtn2.Name = "showbtn2";
+            showbtn2.Size = new Size(98, 42);
+            showbtn2.TabIndex = 5;
+            showbtn2.Text = " Show";
+            showbtn2.UseVisualStyleBackColor = true;
+            showbtn2.Click += showbtn2_Click;
+            // 
+            // showbtn1
+            // 
+            showbtn1.BackColor = Color.Transparent;
+            showbtn1.BackgroundImage = Properties.Resources.Show;
+            showbtn1.BackgroundImageLayout = ImageLayout.Stretch;
+            showbtn1.Cursor = Cursors.Hand;
+            showbtn1.DialogResult = DialogResult.No;
+            showbtn1.FlatAppearance.BorderSize = 0;
+            showbtn1.FlatStyle = FlatStyle.Flat;
+            showbtn1.Location = new Point(20, 3);
+            showbtn1.Name = "showbtn1";
+            showbtn1.Size = new Size(75, 79);
+            showbtn1.TabIndex = 4;
+            showbtn1.UseVisualStyleBackColor = false;
+            showbtn1.Click += showbtn1_Click;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(deletebtn2);
+            panel2.Controls.Add(deletebtn1);
+            panel2.Location = new Point(467, 527);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(120, 115);
+            panel2.TabIndex = 6;
+            // 
+            // deletebtn2
+            // 
+            deletebtn2.Cursor = Cursors.Hand;
+            deletebtn2.FlatAppearance.BorderSize = 0;
+            deletebtn2.FlatStyle = FlatStyle.Flat;
+            deletebtn2.Font = new Font("Lucida Handwriting", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            deletebtn2.Location = new Point(3, 70);
+            deletebtn2.Name = "deletebtn2";
+            deletebtn2.Size = new Size(98, 42);
+            deletebtn2.TabIndex = 5;
+            deletebtn2.Text = "  Delete";
+            deletebtn2.UseVisualStyleBackColor = true;
+            deletebtn2.Click += deletebtn2_Click;
+            // 
+            // deletebtn1
+            // 
+            deletebtn1.BackColor = Color.Transparent;
+            deletebtn1.BackgroundImage = Properties.Resources.Deletuser2;
+            deletebtn1.BackgroundImageLayout = ImageLayout.Stretch;
+            deletebtn1.Cursor = Cursors.Hand;
+            deletebtn1.DialogResult = DialogResult.No;
+            deletebtn1.FlatAppearance.BorderSize = 0;
+            deletebtn1.FlatStyle = FlatStyle.Flat;
+            deletebtn1.Location = new Point(24, 12);
+            deletebtn1.Name = "deletebtn1";
+            deletebtn1.Size = new Size(65, 61);
+            deletebtn1.TabIndex = 4;
+            deletebtn1.UseVisualStyleBackColor = false;
+            deletebtn1.Click += button3_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.WhiteSmoke;
+            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(0, 80);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(1036, 430);
+            dataGridView1.TabIndex = 5;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(338, 9);
+            label2.Location = new Point(384, 20);
             label2.Name = "label2";
             label2.Size = new Size(279, 37);
             label2.TabIndex = 3;
@@ -117,37 +242,11 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(338, 20);
+            label1.Location = new Point(384, 31);
             label1.Name = "label1";
             label1.Size = new Size(270, 37);
             label1.TabIndex = 2;
             label1.Text = "_______________________";
-            // 
-            // hScrollBar1
-            // 
-            hScrollBar1.Cursor = Cursors.PanEast;
-            hScrollBar1.Location = new Point(0, 442);
-            hScrollBar1.Name = "hScrollBar1";
-            hScrollBar1.Size = new Size(907, 36);
-            hScrollBar1.TabIndex = 1;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 6;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 49.55752F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50.44248F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 149F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 200F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 170F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 161F));
-            tableLayoutPanel1.Location = new Point(0, 85);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 7.62711859F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 92.37288F));
-            tableLayoutPanel1.Size = new Size(907, 354);
-            tableLayoutPanel1.TabIndex = 0;
-            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // button9
             // 
@@ -186,6 +285,10 @@
             Load += UserInformation_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -195,10 +298,17 @@
         private Button button2;
         private Panel panel1;
         private Button button9;
-        private TableLayoutPanel tableLayoutPanel1;
         private Label label1;
-        private HScrollBar hScrollBar1;
         private Label label2;
-        private Button button3;
+        private Button deletebtn1;
+        private DataGridView dataGridView1;
+        private Panel panel2;
+        private Button deletebtn2;
+        private Panel panel4;
+        private Button updatebtn2;
+        private Button updatebtn1;
+        private Panel panel3;
+        private Button showbtn2;
+        private Button showbtn1;
     }
 }

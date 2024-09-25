@@ -348,7 +348,7 @@
             comboBox2.Cursor = Cursors.Hand;
             comboBox2.DisplayMember = "5";
             comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "what's your father's name?", "what's your mother's name?", "whats your favourite t name?", "what's your favorite sports?", "what's your favourite movie?" });
+            comboBox2.Items.AddRange(new object[] { "what's your father's name?", "what's your mother's name?", "whats your favourite teacher name?", "what's your favorite sports?", "what's your favourite movie?" });
             comboBox2.Location = new Point(256, 502);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(240, 23);

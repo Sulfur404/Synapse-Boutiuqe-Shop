@@ -42,8 +42,8 @@
             button1 = new Button();
             contextMenuStrip1 = new ContextMenuStrip(components);
             contextMenuStrip2 = new ContextMenuStrip(components);
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            userTextbox = new TextBox();
+            passwordTextbox = new TextBox();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -184,33 +184,33 @@
             contextMenuStrip2.Name = "contextMenuStrip2";
             contextMenuStrip2.Size = new Size(61, 4);
             // 
-            // textBox1
+            // userTextbox
             // 
-            textBox1.BackColor = Color.FromArgb(207, 215, 226);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.Black;
-            textBox1.Location = new Point(967, 347);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(201, 24);
-            textBox1.TabIndex = 4;
-            textBox1.TextChanged += textBox1_TextChanged_1;
+            userTextbox.BackColor = Color.FromArgb(207, 215, 226);
+            userTextbox.BorderStyle = BorderStyle.None;
+            userTextbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            userTextbox.ForeColor = Color.Black;
+            userTextbox.Location = new Point(967, 347);
+            userTextbox.Margin = new Padding(3, 2, 3, 2);
+            userTextbox.Multiline = true;
+            userTextbox.Name = "userTextbox";
+            userTextbox.Size = new Size(201, 24);
+            userTextbox.TabIndex = 4;
+            userTextbox.TextChanged += textBox1_TextChanged_1;
             // 
-            // textBox2
+            // passwordTextbox
             // 
-            textBox2.BackColor = Color.FromArgb(207, 216, 227);
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(967, 413);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '*';
-            textBox2.Size = new Size(201, 24);
-            textBox2.TabIndex = 5;
-            textBox2.TextChanged += textBox2_TextChanged;
+            passwordTextbox.BackColor = Color.FromArgb(207, 216, 227);
+            passwordTextbox.BorderStyle = BorderStyle.None;
+            passwordTextbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            passwordTextbox.Location = new Point(967, 413);
+            passwordTextbox.Margin = new Padding(3, 2, 3, 2);
+            passwordTextbox.Multiline = true;
+            passwordTextbox.Name = "passwordTextbox";
+            passwordTextbox.PasswordChar = '*';
+            passwordTextbox.Size = new Size(201, 24);
+            passwordTextbox.TabIndex = 5;
+            passwordTextbox.TextChanged += textBox2_TextChanged;
             // 
             // button2
             // 
@@ -270,8 +270,8 @@
             Controls.Add(button3);
             Controls.Add(button4);
             Controls.Add(button2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(passwordTextbox);
+            Controls.Add(userTextbox);
             Controls.Add(button1);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
@@ -311,8 +311,8 @@
         private Button button1;
         private ContextMenuStrip contextMenuStrip1;
         private ContextMenuStrip contextMenuStrip2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox userTextbox;
+        private TextBox passwordTextbox;
         private Button button2;
         private Button button3;
         private Button button4;
