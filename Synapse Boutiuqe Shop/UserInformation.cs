@@ -237,13 +237,19 @@ namespace Synapse_Boutiuqe_Shop
             }
         }
 
-        
+
         private void updatebtn1_Click(object sender, EventArgs e)
         {
-
+            Update upate = new Update();
+            upate.Show();
+            this.Close();
         }
 
-
-
+        private void updatebtn2_Click(object sender, EventArgs e)
+        {
+            Update upate = new Update();
+            upate.Show();
+            this.Close();
+        }
     }
 }

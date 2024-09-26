@@ -121,6 +121,7 @@
             updatebtn2.TabIndex = 5;
             updatebtn2.Text = "Update";
             updatebtn2.UseVisualStyleBackColor = true;
+            updatebtn2.Click += updatebtn2_Click;
             // 
             // updatebtn1
             // 
@@ -131,7 +132,7 @@
             updatebtn1.DialogResult = DialogResult.No;
             updatebtn1.FlatAppearance.BorderSize = 0;
             updatebtn1.FlatStyle = FlatStyle.Flat;
-            updatebtn1.Location = new Point(28, 3);
+            updatebtn1.Location = new Point(28, 10);
             updatebtn1.Name = "updatebtn1";
             updatebtn1.Size = new Size(63, 70);
             updatebtn1.TabIndex = 4;
@@ -192,7 +193,7 @@
             deletebtn2.FlatAppearance.BorderSize = 0;
             deletebtn2.FlatStyle = FlatStyle.Flat;
             deletebtn2.Font = new Font("Lucida Handwriting", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            deletebtn2.Location = new Point(3, 70);
+            deletebtn2.Location = new Point(2, 73);
             deletebtn2.Name = "deletebtn2";
             deletebtn2.Size = new Size(98, 42);
             deletebtn2.TabIndex = 5;
@@ -223,6 +224,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(0, 80);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1036, 430);
             dataGridView1.TabIndex = 5;
             // 
@@ -242,7 +244,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(384, 31);
+            label1.Location = new Point(385, 25);
             label1.Name = "label1";
             label1.Size = new Size(270, 37);
             label1.TabIndex = 2;
