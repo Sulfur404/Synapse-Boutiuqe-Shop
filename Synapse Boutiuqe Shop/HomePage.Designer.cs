@@ -61,7 +61,7 @@
             button1.FlatAppearance.BorderSize = 2;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Calisto MT", 13.8F, FontStyle.Bold);
-            button1.Location = new Point(1415, 965);
+            button1.Location = new Point(1235, 853);
             button1.Name = "button1";
             button1.Size = new Size(152, 52);
             button1.TabIndex = 3;
@@ -77,7 +77,7 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(1417, 1023);
+            button2.Location = new Point(1237, 911);
             button2.Name = "button2";
             button2.Size = new Size(46, 45);
             button2.TabIndex = 4;
@@ -92,7 +92,7 @@
             button3.Cursor = Cursors.Hand;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(1469, 1023);
+            button3.Location = new Point(1289, 911);
             button3.Name = "button3";
             button3.Size = new Size(46, 45);
             button3.TabIndex = 4;
@@ -107,7 +107,7 @@
             button4.Cursor = Cursors.Hand;
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(1521, 1023);
+            button4.Location = new Point(1341, 911);
             button4.Name = "button4";
             button4.Size = new Size(46, 45);
             button4.TabIndex = 4;
