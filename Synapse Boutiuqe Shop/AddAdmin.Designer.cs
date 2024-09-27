@@ -52,7 +52,7 @@
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = Color.Transparent;
-            button3.Location = new Point(218, 499);
+            button3.Location = new Point(177, 398);
             button3.Name = "button3";
             button3.Size = new Size(139, 59);
             button3.TabIndex = 29;
@@ -69,17 +69,18 @@
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label3);
             panel1.ForeColor = SystemColors.ButtonHighlight;
-            panel1.Location = new Point(406, 55);
+            panel1.Location = new Point(374, 53);
             panel1.Name = "panel1";
-            panel1.Size = new Size(613, 745);
+            panel1.Size = new Size(520, 497);
             panel1.TabIndex = 16;
+            panel1.Paint += panel1_Paint;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(172, 142);
+            label1.Location = new Point(131, 41);
             label1.Name = "label1";
             label1.Size = new Size(252, 37);
             label1.TabIndex = 12;
@@ -90,7 +91,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(172, 158);
+            label2.Location = new Point(131, 57);
             label2.Name = "label2";
             label2.Size = new Size(248, 37);
             label2.TabIndex = 11;
@@ -101,7 +102,7 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI Semilight", 13F);
-            label6.Location = new Point(138, 391);
+            label6.Location = new Point(97, 290);
             label6.Name = "label6";
             label6.Size = new Size(147, 25);
             label6.TabIndex = 6;
@@ -112,7 +113,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(138, 425);
+            label5.Location = new Point(97, 324);
             label5.Name = "label5";
             label5.Size = new Size(332, 25);
             label5.TabIndex = 7;
@@ -124,7 +125,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semilight", 13F);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(136, 277);
+            label4.Location = new Point(95, 176);
             label4.Name = "label4";
             label4.Size = new Size(161, 25);
             label4.TabIndex = 6;
@@ -135,7 +136,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(136, 313);
+            label3.Location = new Point(95, 212);
             label3.Name = "label3";
             label3.Size = new Size(332, 25);
             label3.TabIndex = 7;
@@ -150,7 +151,7 @@
             button9.FlatAppearance.BorderSize = 0;
             button9.FlatStyle = FlatStyle.Flat;
             button9.ForeColor = Color.Transparent;
-            button9.Location = new Point(12, 11);
+            button9.Location = new Point(2, 8);
             button9.Margin = new Padding(3, 2, 3, 2);
             button9.Name = "button9";
             button9.Size = new Size(24, 30);
@@ -166,7 +167,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ActiveBorder;
-            button2.Location = new Point(1310, -9);
+            button2.Location = new Point(1151, -12);
             button2.Name = "button2";
             button2.Size = new Size(35, 59);
             button2.TabIndex = 14;
@@ -182,7 +183,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ActiveBorder;
-            button1.Location = new Point(1340, 3);
+            button1.Location = new Point(1181, 0);
             button1.Name = "button1";
             button1.Size = new Size(32, 38);
             button1.TabIndex = 13;
@@ -196,7 +197,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.AdminBlur;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1384, 811);
+            ClientSize = new Size(1225, 638);
             Controls.Add(panel1);
             Controls.Add(button9);
             Controls.Add(button2);

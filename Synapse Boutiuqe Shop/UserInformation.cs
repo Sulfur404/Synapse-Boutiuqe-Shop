@@ -251,5 +251,10 @@ namespace Synapse_Boutiuqe_Shop
             upate.Show();
             this.Close();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dataGridView1.BackColor = Color.FromArgb(100, 0, 0, 0);
+        }
     }
 }
