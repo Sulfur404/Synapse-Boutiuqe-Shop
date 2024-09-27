@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -53,9 +54,57 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Interface01 interface01 = new Interface01();
-            interface01.Show();
-            this.Hide() ;
+            if (!string.IsNullOrEmpty(userTextbox.Text) && !string.IsNullOrEmpty(passwordTextbox.Text))
+            {
+                String username;
+                String password;
+
+                username = userTextbox.Text;
+                password = passwordTextbox.Text;
+
+                string connectionString = "Data Source=MOSTAFI-NAFIS\\SQLEXPRESS;Initial Catalog=\"Synapse Boutiuqe Shop\";Integrated Security=True;";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    try
+                    {
+                        con.Open();
+
+                        string query = "  select * from [user information] where [User name]='" + userTextbox.Text + "' and Password='" + passwordTextbox.Text + "'";
+
+                        SqlDataAdapter sda = new SqlDataAdapter(query, con);
+
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+
+                        if (dt.Rows.Count > 0)
+                        {
+                            username = userTextbox.Text;
+                            password = userTextbox.Text;
+
+
+                            Interface01 interface01 = new Interface01();
+                            interface01.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid login details.", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            userTextbox.Clear();
+                            passwordTextbox.Clear();
+                            userTextbox.Focus();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please fill up all required information.", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

@@ -37,6 +37,7 @@
             AdminButton = new Button();
             button5 = new Button();
             button6 = new Button();
+            button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -45,9 +46,10 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.Getready2;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1003, 429);
+            pictureBox1.Location = new Point(878, 322);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(459, 277);
+            pictureBox1.Size = new Size(402, 208);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -61,9 +63,10 @@
             button1.FlatAppearance.BorderSize = 2;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Calisto MT", 13.8F, FontStyle.Bold);
-            button1.Location = new Point(1235, 853);
+            button1.Location = new Point(1239, 724);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(152, 52);
+            button1.Size = new Size(133, 39);
             button1.TabIndex = 3;
             button1.Text = "Contribute";
             button1.UseVisualStyleBackColor = false;
@@ -77,9 +80,10 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(1237, 911);
+            button2.Location = new Point(1240, 767);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(46, 45);
+            button2.Size = new Size(40, 34);
             button2.TabIndex = 4;
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
@@ -92,9 +96,10 @@
             button3.Cursor = Cursors.Hand;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(1289, 911);
+            button3.Location = new Point(1286, 767);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(46, 45);
+            button3.Size = new Size(40, 34);
             button3.TabIndex = 4;
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
@@ -107,9 +112,10 @@
             button4.Cursor = Cursors.Hand;
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(1341, 911);
+            button4.Location = new Point(1331, 767);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(46, 45);
+            button4.Size = new Size(40, 34);
             button4.TabIndex = 4;
             button4.UseVisualStyleBackColor = false;
             // 
@@ -121,9 +127,10 @@
             AdminButton.Cursor = Cursors.Hand;
             AdminButton.FlatAppearance.BorderSize = 0;
             AdminButton.FlatStyle = FlatStyle.Flat;
-            AdminButton.Location = new Point(1021, 613);
+            AdminButton.Location = new Point(893, 460);
+            AdminButton.Margin = new Padding(3, 2, 3, 2);
             AdminButton.Name = "AdminButton";
-            AdminButton.Size = new Size(112, 45);
+            AdminButton.Size = new Size(98, 34);
             AdminButton.TabIndex = 5;
             AdminButton.UseVisualStyleBackColor = false;
             AdminButton.Click += AdminButton_Click;
@@ -136,10 +143,9 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.DimGray;
-            button5.Location = new Point(1497, -17);
-            button5.Margin = new Padding(3, 4, 3, 4);
+            button5.Location = new Point(1310, -13);
             button5.Name = "button5";
-            button5.Size = new Size(40, 79);
+            button5.Size = new Size(35, 59);
             button5.TabIndex = 7;
             button5.Text = "-";
             button5.UseVisualStyleBackColor = false;
@@ -153,22 +159,38 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.DimGray;
-            button6.Location = new Point(1531, -1);
-            button6.Margin = new Padding(3, 4, 3, 4);
+            button6.Location = new Point(1340, -1);
             button6.Name = "button6";
-            button6.Size = new Size(37, 51);
+            button6.Size = new Size(32, 38);
             button6.TabIndex = 6;
             button6.Text = "X";
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
+            // button7
+            // 
+            button7.BackColor = Color.Transparent;
+            button7.BackgroundImage = Properties.Resources.UserText;
+            button7.BackgroundImageLayout = ImageLayout.Stretch;
+            button7.Cursor = Cursors.Hand;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Location = new Point(1168, 465);
+            button7.Margin = new Padding(3, 2, 3, 2);
+            button7.Name = "button7";
+            button7.Size = new Size(98, 34);
+            button7.TabIndex = 8;
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
             // HomePage
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.HomeBackgroung;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1582, 1081);
+            ClientSize = new Size(1384, 811);
+            Controls.Add(button7);
             Controls.Add(button5);
             Controls.Add(button6);
             Controls.Add(button4);
@@ -179,6 +201,7 @@
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             Name = "HomePage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
@@ -197,5 +220,6 @@
         private Button AdminButton;
         private Button button5;
         private Button button6;
+        private Button button7;
     }
 }

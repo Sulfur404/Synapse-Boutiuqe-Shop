@@ -523,7 +523,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Brown_and_White_Aesthetic_Thank_You_Poster_Landscape2;
             ClientSize = new Size(1382, 803);
             Controls.Add(button17);
             Controls.Add(button13);

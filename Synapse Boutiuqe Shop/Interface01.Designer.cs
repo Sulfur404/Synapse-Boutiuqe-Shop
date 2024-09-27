@@ -276,7 +276,6 @@
             // button2
             // 
             button2.BackColor = SystemColors.GradientActiveCaption;
-            button2.BackgroundImage = Properties.Resources.blazer11;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.Cursor = Cursors.Hand;
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
