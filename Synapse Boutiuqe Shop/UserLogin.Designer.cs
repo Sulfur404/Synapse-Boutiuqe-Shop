@@ -155,10 +155,10 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.mainlogoN;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(89, 86);
+            pictureBox1.Location = new Point(202, 141);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(560, 415);
+            pictureBox1.Size = new Size(371, 325);
             pictureBox1.TabIndex = 22;
             pictureBox1.TabStop = false;
             // 
@@ -170,7 +170,7 @@
             button6.Cursor = Cursors.Hand;
             button6.FlatAppearance.BorderSize = 0;
             button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(929, 407);
+            button6.Location = new Point(838, 405);
             button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
             button6.Size = new Size(132, 61);
@@ -183,7 +183,7 @@
             passwordTextbox.BackColor = Color.FromArgb(227, 229, 216);
             passwordTextbox.BorderStyle = BorderStyle.None;
             passwordTextbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            passwordTextbox.Location = new Point(891, 281);
+            passwordTextbox.Location = new Point(798, 282);
             passwordTextbox.Margin = new Padding(3, 2, 3, 2);
             passwordTextbox.Multiline = true;
             passwordTextbox.Name = "passwordTextbox";
@@ -197,7 +197,7 @@
             userTextbox.BorderStyle = BorderStyle.None;
             userTextbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             userTextbox.ForeColor = Color.Black;
-            userTextbox.Location = new Point(891, 215);
+            userTextbox.Location = new Point(796, 216);
             userTextbox.Margin = new Padding(3, 2, 3, 2);
             userTextbox.Multiline = true;
             userTextbox.Name = "userTextbox";
@@ -209,7 +209,7 @@
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImage = Properties.Resources.Passicon;
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(849, 281);
+            pictureBox3.Location = new Point(758, 279);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(28, 24);
@@ -221,7 +221,7 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = Properties.Resources.user;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(849, 215);
+            pictureBox2.Location = new Point(758, 213);
             pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(28, 24);
@@ -233,7 +233,7 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI Semilight", 13F);
-            label6.Location = new Point(944, 314);
+            label6.Location = new Point(853, 312);
             label6.Name = "label6";
             label6.Size = new Size(83, 25);
             label6.TabIndex = 23;
@@ -244,7 +244,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semilight", 13F);
-            label4.Location = new Point(929, 249);
+            label4.Location = new Point(838, 247);
             label4.Name = "label4";
             label4.Size = new Size(107, 25);
             label4.TabIndex = 24;
@@ -255,7 +255,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI Semilight", 14F);
-            label5.Location = new Point(882, 290);
+            label5.Location = new Point(791, 288);
             label5.Name = "label5";
             label5.Size = new Size(204, 25);
             label5.TabIndex = 25;
@@ -266,7 +266,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(882, 225);
+            label3.Location = new Point(791, 223);
             label3.Name = "label3";
             label3.Size = new Size(204, 25);
             label3.TabIndex = 26;
@@ -277,7 +277,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semilight", 14F);
-            label2.Location = new Point(872, 152);
+            label2.Location = new Point(781, 150);
             label2.Name = "label2";
             label2.Size = new Size(196, 25);
             label2.TabIndex = 27;
@@ -288,7 +288,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(862, 106);
+            label1.Location = new Point(771, 101);
             label1.Name = "label1";
             label1.Size = new Size(223, 51);
             label1.TabIndex = 28;
@@ -301,10 +301,10 @@
             ForgotPassBtn.FlatAppearance.BorderSize = 0;
             ForgotPassBtn.FlatStyle = FlatStyle.Flat;
             ForgotPassBtn.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ForgotPassBtn.Location = new Point(997, 357);
+            ForgotPassBtn.Location = new Point(899, 350);
             ForgotPassBtn.Margin = new Padding(3, 2, 3, 2);
             ForgotPassBtn.Name = "ForgotPassBtn";
-            ForgotPassBtn.Size = new Size(164, 25);
+            ForgotPassBtn.Size = new Size(145, 35);
             ForgotPassBtn.TabIndex = 35;
             ForgotPassBtn.Text = "Forgot Password ?";
             ForgotPassBtn.UseVisualStyleBackColor = false;
@@ -315,7 +315,7 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(845, 482);
+            label7.Location = new Point(754, 480);
             label7.Name = "label7";
             label7.Size = new Size(202, 21);
             label7.TabIndex = 36;
@@ -328,7 +328,7 @@
             SignupBtn.FlatAppearance.BorderSize = 0;
             SignupBtn.FlatStyle = FlatStyle.Flat;
             SignupBtn.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            SignupBtn.Location = new Point(1068, 475);
+            SignupBtn.Location = new Point(950, 472);
             SignupBtn.Margin = new Padding(3, 2, 3, 2);
             SignupBtn.Name = "SignupBtn";
             SignupBtn.Size = new Size(94, 35);
@@ -342,7 +342,7 @@
             RemembermeCb.AutoSize = true;
             RemembermeCb.BackColor = Color.Transparent;
             RemembermeCb.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            RemembermeCb.Location = new Point(849, 357);
+            RemembermeCb.Location = new Point(758, 355);
             RemembermeCb.Margin = new Padding(3, 2, 3, 2);
             RemembermeCb.Name = "RemembermeCb";
             RemembermeCb.Size = new Size(126, 24);

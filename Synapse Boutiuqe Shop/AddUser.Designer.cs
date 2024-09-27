@@ -160,10 +160,10 @@
             LoginForm.Controls.Add(label4);
             LoginForm.Controls.Add(label3);
             LoginForm.ForeColor = SystemColors.ButtonHighlight;
-            LoginForm.Location = new Point(333, 35);
+            LoginForm.Location = new Point(333, 11);
             LoginForm.Margin = new Padding(3, 2, 3, 2);
             LoginForm.Name = "LoginForm";
-            LoginForm.Size = new Size(536, 559);
+            LoginForm.Size = new Size(545, 604);
             LoginForm.TabIndex = 12;
             LoginForm.Paint += panel1_Paint;
             // 
@@ -173,7 +173,7 @@
             lbcaptcha.BackColor = Color.Transparent;
             lbcaptcha.Font = new Font("Lucida Handwriting", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbcaptcha.ForeColor = Color.LightCoral;
-            lbcaptcha.Location = new Point(116, 474);
+            lbcaptcha.Location = new Point(116, 478);
             lbcaptcha.Name = "lbcaptcha";
             lbcaptcha.Size = new Size(105, 24);
             lbcaptcha.TabIndex = 37;
@@ -185,7 +185,7 @@
             username.BorderStyle = BorderStyle.None;
             username.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             username.ForeColor = SystemColors.ButtonHighlight;
-            username.Location = new Point(51, 322);
+            username.Location = new Point(51, 326);
             username.Margin = new Padding(3, 2, 3, 2);
             username.Multiline = true;
             username.Name = "username";
@@ -198,7 +198,7 @@
             password.BorderStyle = BorderStyle.None;
             password.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             password.ForeColor = SystemColors.ButtonHighlight;
-            password.Location = new Point(319, 322);
+            password.Location = new Point(319, 326);
             password.Margin = new Padding(3, 2, 3, 2);
             password.Multiline = true;
             password.Name = "password";
@@ -211,7 +211,7 @@
             answer.BorderStyle = BorderStyle.None;
             answer.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             answer.ForeColor = SystemColors.ButtonHighlight;
-            answer.Location = new Point(51, 430);
+            answer.Location = new Point(51, 434);
             answer.Margin = new Padding(3, 2, 3, 2);
             answer.Multiline = true;
             answer.Name = "answer";
@@ -224,11 +224,11 @@
             captcha.BorderStyle = BorderStyle.None;
             captcha.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             captcha.ForeColor = SystemColors.ButtonHighlight;
-            captcha.Location = new Point(224, 470);
+            captcha.Location = new Point(228, 472);
             captcha.Margin = new Padding(3, 2, 3, 2);
             captcha.Multiline = true;
             captcha.Name = "captcha";
-            captcha.Size = new Size(184, 23);
+            captcha.Size = new Size(117, 23);
             captcha.TabIndex = 33;
             captcha.TextChanged += namebox_TextChanged;
             // 
@@ -238,7 +238,7 @@
             date.BorderStyle = BorderStyle.None;
             date.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             date.ForeColor = SystemColors.ButtonHighlight;
-            date.Location = new Point(51, 144);
+            date.Location = new Point(51, 148);
             date.Margin = new Padding(3, 2, 3, 2);
             date.Multiline = true;
             date.Name = "date";
@@ -251,7 +251,7 @@
             email.BorderStyle = BorderStyle.None;
             email.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             email.ForeColor = SystemColors.ButtonHighlight;
-            email.Location = new Point(51, 251);
+            email.Location = new Point(51, 255);
             email.Margin = new Padding(3, 2, 3, 2);
             email.Multiline = true;
             email.Name = "email";
@@ -264,7 +264,7 @@
             lastname.BorderStyle = BorderStyle.None;
             lastname.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lastname.ForeColor = SystemColors.ButtonHighlight;
-            lastname.Location = new Point(319, 82);
+            lastname.Location = new Point(319, 86);
             lastname.Margin = new Padding(3, 2, 3, 2);
             lastname.Multiline = true;
             lastname.Name = "lastname";
@@ -277,7 +277,7 @@
             firstname.BorderStyle = BorderStyle.None;
             firstname.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             firstname.ForeColor = SystemColors.ButtonHighlight;
-            firstname.Location = new Point(50, 81);
+            firstname.Location = new Point(50, 85);
             firstname.Margin = new Padding(3, 2, 3, 2);
             firstname.Multiline = true;
             firstname.Name = "firstname";
@@ -292,10 +292,10 @@
             adduseerBtn.FlatAppearance.BorderSize = 0;
             adduseerBtn.FlatStyle = FlatStyle.Flat;
             adduseerBtn.ForeColor = Color.Transparent;
-            adduseerBtn.Location = new Point(220, 502);
+            adduseerBtn.Location = new Point(220, 506);
             adduseerBtn.Margin = new Padding(3, 2, 3, 2);
             adduseerBtn.Name = "adduseerBtn";
-            adduseerBtn.Size = new Size(108, 40);
+            adduseerBtn.Size = new Size(103, 55);
             adduseerBtn.TabIndex = 29;
             adduseerBtn.UseVisualStyleBackColor = true;
             adduseerBtn.Click += button3_Click;
@@ -304,18 +304,18 @@
             // 
             label20.AutoSize = true;
             label20.BackColor = Color.Transparent;
-            label20.Location = new Point(215, 474);
+            label20.Location = new Point(226, 485);
             label20.Name = "label20";
-            label20.Size = new Size(97, 15);
+            label20.Size = new Size(117, 15);
             label20.TabIndex = 28;
-            label20.Text = "__________________";
+            label20.Text = "______________________";
             // 
             // label19
             // 
             label19.AutoSize = true;
             label19.BackColor = Color.Transparent;
             label19.Font = new Font("Segoe UI Semilight", 13F);
-            label19.Location = new Point(46, 470);
+            label19.Location = new Point(46, 474);
             label19.Name = "label19";
             label19.Size = new Size(84, 25);
             label19.TabIndex = 27;
@@ -326,7 +326,7 @@
             label18.AutoSize = true;
             label18.BackColor = Color.Transparent;
             label18.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(46, 434);
+            label18.Location = new Point(46, 438);
             label18.Name = "label18";
             label18.Size = new Size(260, 25);
             label18.TabIndex = 26;
@@ -337,7 +337,7 @@
             label17.AutoSize = true;
             label17.BackColor = Color.Transparent;
             label17.Font = new Font("Segoe UI Semilight", 13F);
-            label17.Location = new Point(46, 405);
+            label17.Location = new Point(46, 409);
             label17.Name = "label17";
             label17.Size = new Size(153, 25);
             label17.TabIndex = 25;
@@ -350,7 +350,7 @@
             comboBox2.DisplayMember = "5";
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "what's your father's name?", "what's your mother's name?", "whats your favourite teacher name?", "what's your favorite sports?", "what's your favourite movie?" });
-            comboBox2.Location = new Point(236, 376);
+            comboBox2.Location = new Point(236, 380);
             comboBox2.Margin = new Padding(3, 2, 3, 2);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(210, 23);
@@ -362,7 +362,7 @@
             label16.AutoSize = true;
             label16.BackColor = Color.Transparent;
             label16.Font = new Font("Segoe UI Semilight", 13F);
-            label16.Location = new Point(46, 374);
+            label16.Location = new Point(46, 378);
             label16.Name = "label16";
             label16.Size = new Size(147, 25);
             label16.TabIndex = 23;
@@ -374,7 +374,7 @@
             label14.BackColor = Color.Transparent;
             label14.Font = new Font("Segoe UI Semilight", 13F);
             label14.ForeColor = SystemColors.ButtonHighlight;
-            label14.Location = new Point(314, 294);
+            label14.Location = new Point(314, 298);
             label14.Name = "label14";
             label14.Size = new Size(92, 25);
             label14.TabIndex = 21;
@@ -385,7 +385,7 @@
             label15.AutoSize = true;
             label15.BackColor = Color.Transparent;
             label15.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.Location = new Point(315, 326);
+            label15.Location = new Point(315, 330);
             label15.Name = "label15";
             label15.Size = new Size(204, 25);
             label15.TabIndex = 22;
@@ -397,7 +397,7 @@
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Segoe UI Semilight", 13F);
             label12.ForeColor = SystemColors.ButtonHighlight;
-            label12.Location = new Point(46, 294);
+            label12.Location = new Point(46, 298);
             label12.Name = "label12";
             label12.Size = new Size(106, 25);
             label12.TabIndex = 19;
@@ -408,7 +408,7 @@
             label13.AutoSize = true;
             label13.BackColor = Color.Transparent;
             label13.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(46, 326);
+            label13.Location = new Point(46, 330);
             label13.Name = "label13";
             label13.Size = new Size(204, 25);
             label13.TabIndex = 20;
@@ -419,7 +419,7 @@
             label10.AutoSize = true;
             label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe UI Semilight", 13F);
-            label10.Location = new Point(44, 225);
+            label10.Location = new Point(44, 229);
             label10.Name = "label10";
             label10.Size = new Size(128, 25);
             label10.TabIndex = 17;
@@ -430,7 +430,7 @@
             label11.AutoSize = true;
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(46, 255);
+            label11.Location = new Point(46, 259);
             label11.Name = "label11";
             label11.Size = new Size(260, 25);
             label11.TabIndex = 18;
@@ -442,7 +442,7 @@
             radioButton3.Cursor = Cursors.Hand;
             radioButton3.Font = new Font("Segoe UI", 9.75F);
             radioButton3.ForeColor = SystemColors.ButtonHighlight;
-            radioButton3.Location = new Point(292, 193);
+            radioButton3.Location = new Point(292, 197);
             radioButton3.Margin = new Padding(3, 2, 3, 2);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(59, 21);
@@ -457,7 +457,7 @@
             radioButton2.Cursor = Cursors.Hand;
             radioButton2.Font = new Font("Segoe UI", 9.75F);
             radioButton2.ForeColor = SystemColors.ButtonHighlight;
-            radioButton2.Location = new Point(215, 193);
+            radioButton2.Location = new Point(215, 197);
             radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(67, 21);
@@ -473,7 +473,7 @@
             radioButton1.Cursor = Cursors.Hand;
             radioButton1.Font = new Font("Segoe UI", 9.75F);
             radioButton1.ForeColor = SystemColors.ButtonHighlight;
-            radioButton1.Location = new Point(139, 193);
+            radioButton1.Location = new Point(139, 197);
             radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(55, 21);
@@ -488,7 +488,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI Semilight", 13F);
             label9.ForeColor = SystemColors.ButtonHighlight;
-            label9.Location = new Point(46, 190);
+            label9.Location = new Point(46, 194);
             label9.Name = "label9";
             label9.Size = new Size(68, 25);
             label9.TabIndex = 13;
@@ -499,7 +499,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(176, -5);
+            label1.Location = new Point(165, -5);
             label1.Name = "label1";
             label1.Size = new Size(226, 37);
             label1.TabIndex = 12;
@@ -511,7 +511,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(172, 4);
+            label2.Location = new Point(161, 4);
             label2.Name = "label2";
             label2.Size = new Size(226, 37);
             label2.TabIndex = 11;
@@ -525,7 +525,7 @@
             comboBox1.DisplayMember = "5";
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Islam", "Hindui", "Christianity", "Sikhism", "Buddhism" });
-            comboBox1.Location = new Point(352, 151);
+            comboBox1.Location = new Point(352, 155);
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(142, 23);
@@ -538,7 +538,7 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI Semilight", 13F);
-            label7.Location = new Point(46, 119);
+            label7.Location = new Point(46, 123);
             label7.Name = "label7";
             label7.Size = new Size(205, 25);
             label7.TabIndex = 8;
@@ -549,7 +549,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(46, 147);
+            label8.Location = new Point(46, 151);
             label8.Name = "label8";
             label8.Size = new Size(260, 25);
             label8.TabIndex = 9;
@@ -560,7 +560,7 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI Semilight", 13F);
-            label6.Location = new Point(316, 57);
+            label6.Location = new Point(316, 61);
             label6.Name = "label6";
             label6.Size = new Size(102, 25);
             label6.TabIndex = 6;
@@ -572,7 +572,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(315, 85);
+            label5.Location = new Point(315, 89);
             label5.Name = "label5";
             label5.Size = new Size(204, 25);
             label5.TabIndex = 7;
@@ -585,7 +585,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI Semilight", 13F);
             label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(46, 56);
+            label4.Location = new Point(46, 60);
             label4.Name = "label4";
             label4.Size = new Size(104, 25);
             label4.TabIndex = 6;
@@ -597,7 +597,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(46, 85);
+            label3.Location = new Point(46, 89);
             label3.Name = "label3";
             label3.Size = new Size(204, 25);
             label3.TabIndex = 7;

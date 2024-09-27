@@ -59,5 +59,26 @@ namespace Synapse_Boutiuqe_Shop
             womenInterfaceFormal.Show();
             this.Hide();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            MenCasual interfaceCasual = new MenCasual();
+            interfaceCasual.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            InterfaceFormal interfaceFormal = new InterfaceFormal();
+            interfaceFormal.Show();
+            this.Hide();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            WomenInterfaceFormal womenInterfaceFormal = new WomenInterfaceFormal();
+            womenInterfaceFormal.Show();
+            this.Hide();
+        }
     }
 }
