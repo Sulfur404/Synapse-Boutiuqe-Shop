@@ -73,6 +73,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abaya {
+            get {
+                object obj = ResourceManager.GetObject("abaya", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Add_Admin {
             get {
                 object obj = ResourceManager.GetObject("Add Admin", resourceCulture);
@@ -363,9 +373,39 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blazer12 {
+            get {
+                object obj = ResourceManager.GetObject("blazer12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blazer2 {
+            get {
+                object obj = ResourceManager.GetObject("blazer2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blazer3 {
             get {
                 object obj = ResourceManager.GetObject("blazer3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blazer31 {
+            get {
+                object obj = ResourceManager.GetObject("blazer31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,6 +463,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape__1_4 {
+            get {
+                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape (1)4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape__2_ {
             get {
                 object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape (2)", resourceCulture);
@@ -466,6 +516,26 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape3 {
             get {
                 object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape4 {
+            get {
+                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape5 {
+            get {
+                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,6 +613,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dirndl {
+            get {
+                object obj = ResourceManager.GetObject("dirndl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap donatepic {
             get {
                 object obj = ResourceManager.GetObject("donatepic", resourceCulture);
@@ -596,6 +676,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap fitandflare {
             get {
                 object obj = ResourceManager.GetObject("fitandflare", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flamenco {
+            get {
+                object obj = ResourceManager.GetObject("flamenco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,6 +753,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hanbok {
+            get {
+                object obj = ResourceManager.GetObject("hanbok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HomeBackgroung {
             get {
                 object obj = ResourceManager.GetObject("HomeBackgroung", resourceCulture);
@@ -716,6 +816,26 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap jacket {
             get {
                 object obj = ResourceManager.GetObject("jacket", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kaftan {
+            get {
+                object obj = ResourceManager.GetObject("kaftan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kimono_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("kimono-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -916,6 +1036,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap punjabi {
             get {
                 object obj = ResourceManager.GetObject("punjabi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sari {
+            get {
+                object obj = ResourceManager.GetObject("sari", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

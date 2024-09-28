@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Brown and White Aesthetic Thank You Poster Landscape (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\vest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fb1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,17 +130,20 @@
   <data name="Admin Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Admin Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Adduser21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Adduser2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="blazer11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\blazer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Admin Info1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Admin Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blazer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\blazer2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SignupBackground22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kimono-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kimono-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SignupBackground25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,6 +169,9 @@
   <data name="hamburger1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Admin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tableback1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tableback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,8 +196,8 @@
   <data name="Brown and White Aesthetic Thank You Poster Landscape1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="young-attractive-man-classic-suit-straightens-his-tie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\young-attractive-man-classic-suit-straightens-his-tie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blazer31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\blazer3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\User Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,11 +205,14 @@
   <data name="Back3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Getready2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Getready2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="linkdin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\linkdin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdminBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\AdminBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Brown and White Aesthetic Thank You Poster Landscape (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,11 +229,11 @@
   <data name="tableback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tableback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SignupBackground7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\SignupBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Brown and White Aesthetic Thank You Poster Landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Add User2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Add User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SignupBackground2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,20 +250,20 @@
   <data name="dresspant2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\dresspant2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AdminLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SignupBackground24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="banner7775" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\banner7775.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jacket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\jacket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\login2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sheath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\sheath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mc061" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\mc06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,14 +274,20 @@
   <data name="wb03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\wb03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Passicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Passicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blacktie2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\blacktie2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wb031" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\wb03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="donatepic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\donatepic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mainlogoN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mainlogoN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wb032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\wb03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shirt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\shirt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,8 +295,8 @@
   <data name="aline2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\aline2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Admin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="banner7775" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\banner7775.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mc06" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\mc06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,6 +307,9 @@
   <data name="vnecksweater" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\vnecksweater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SKINNY JEANS-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\SKINNY JEANS-1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="banner77751" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\banner7775.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -300,6 +318,9 @@
   </data>
   <data name="Brown and White Aesthetic Thank You Poster Landscape (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blazer12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\blazer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casual Style Fashion Presentation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Casual Style Fashion Presentation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,6 +334,9 @@
   <data name="SignupBackground6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AdminLogin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -321,9 +345,6 @@
   </data>
   <data name="Brown and White Aesthetic Thank You Poster Landscape3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Welcome (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Welcome (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shorts1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\shorts1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,8 +373,11 @@
   <data name="HomeBackgroung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\HomeBackgroung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sheath" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\sheath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="young-attractive-man-classic-suit-straightens-his-tie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\young-attractive-man-classic-suit-straightens-his-tie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flamenco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\flamenco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\login2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,11 +385,14 @@
   <data name="Untitled design" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Untitled design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="InstaN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\InstaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="polo01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\polo01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mainlogoN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mainlogoN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="abaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\abaya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2024-09-24 114741" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Screenshot 2024-09-24 114741.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -376,8 +403,8 @@
   <data name="linkdin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\linkdin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SKINNY JEANS-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\SKINNY JEANS-1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="donatepic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\donatepic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Deletuser2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Deletuser2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -400,11 +427,11 @@
   <data name="gown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\gown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Brown and White Aesthetic Thank You Poster Landscape (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\login2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Passicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Passicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Getready2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Getready2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lpic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\lpic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -436,8 +463,8 @@
   <data name="Brown and White Aesthetic Thank You Poster Landscape (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AdminBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\AdminBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Welcome (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Welcome (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Add Admin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Add Admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -451,20 +478,23 @@
   <data name="SignupBackground23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grafictee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\grafictee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AdminLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ccare" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\ccare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jacket" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\jacket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Adduser21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Adduser2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Add User2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Add User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SignupBackground7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\SignupBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mainlogoN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\mainlogoN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanbok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\hanbok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -472,8 +502,11 @@
   <data name="tie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InstaN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\InstaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dirndl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dirndl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grafictee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\grafictee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InstaN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\InstaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -481,22 +514,28 @@
   <data name="mc09" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\mc09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InstaN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\InstaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kaftan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kaftan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="InstaN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\InstaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\vest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wb032" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\wb03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown and White Aesthetic Thank You Poster Landscape (1)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -320,6 +320,7 @@
             button7.Text = "Women Traditional";
             button7.TextAlign = ContentAlignment.BottomCenter;
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // Interface01
             // 

@@ -10,18 +10,23 @@ using System.Windows.Forms;
 
 namespace Synapse_Boutiuqe_Shop
 {
-    public partial class InterfaceFormal : Form
+    public partial class Blazerpurchase : Form
     {
-        public InterfaceFormal()
+        public Blazerpurchase()
         {
             InitializeComponent();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Interface01 interface01 = new Interface01();
-            interface01.Show();
+            InterfaceFormal interfaceFormal = new InterfaceFormal();
+            interfaceFormal.Show();
             this.Hide();
+        }
+
+        private void optionBtn_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -34,21 +39,14 @@ namespace Synapse_Boutiuqe_Shop
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Blazerpurchase blazerpurchase = new Blazerpurchase();
-            blazerpurchase.Show();
-            this.Hide();
         }
     }
 }
