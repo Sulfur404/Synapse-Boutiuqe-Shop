@@ -123,16 +123,6 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_User2 {
-            get {
-                object obj = ResourceManager.GetObject("Add User2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Adduser2 {
             get {
                 object obj = ResourceManager.GetObject("Adduser2", resourceCulture);
@@ -363,10 +353,9 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
-        internal static System.Drawing.Bitmap blazer3 {
+        internal static System.Drawing.Bitmap blazer12 {
             get {
-                object obj = ResourceManager.GetObject("blazer3", resourceCulture);
+                object obj = ResourceManager.GetObject("blazer12", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -374,9 +363,19 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blazer31 {
+        internal static System.Drawing.Bitmap blazer2 {
             get {
-                object obj = ResourceManager.GetObject("blazer31", resourceCulture);
+                object obj = ResourceManager.GetObject("blazer2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blazer3 {
+            get {
+                object obj = ResourceManager.GetObject("blazer3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -434,7 +433,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
+        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape__2_1 {
             get {
                 object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape (2)1", resourceCulture);
@@ -458,26 +466,6 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape3 {
             get {
                 object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape4 {
-            get {
-                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Brown_and_White_Aesthetic_Thank_You_Poster_Landscape5 {
-            get {
-                object obj = ResourceManager.GetObject("Brown and White Aesthetic Thank You Poster Landscape5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -775,9 +763,9 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kimono_removebg_preview {
+        internal static System.Drawing.Bitmap kimono {
             get {
-                object obj = ResourceManager.GetObject("kimono-removebg-preview", resourceCulture);
+                object obj = ResourceManager.GetObject("kimono", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

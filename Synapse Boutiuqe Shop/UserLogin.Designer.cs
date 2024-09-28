@@ -153,7 +153,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = Properties.Resources.mainlogoN;
+            pictureBox1.BackgroundImage = Properties.Resources.mainlogoN1;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(202, 141);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);

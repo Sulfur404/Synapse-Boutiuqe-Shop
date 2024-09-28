@@ -399,7 +399,7 @@
             pictureBox8.BackgroundImage = Properties.Resources.Fb2;
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Cursor = Cursors.Hand;
-            pictureBox8.Location = new Point(629, 42);
+            pictureBox8.Location = new Point(654, 42);
             pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(37, 32);
@@ -425,7 +425,7 @@
             pictureBox10.BackgroundImage = Properties.Resources.linkdin2;
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Cursor = Cursors.Hand;
-            pictureBox10.Location = new Point(943, 42);
+            pictureBox10.Location = new Point(923, 42);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(37, 32);
@@ -583,6 +583,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(optionBtn);
             Controls.Add(button3);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);

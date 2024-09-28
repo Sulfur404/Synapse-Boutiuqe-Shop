@@ -33,5 +33,10 @@ namespace Synapse_Boutiuqe_Shop
             interface01.Show();
             this.Hide();
         }
+
+        private void WomenTraditionInterface_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

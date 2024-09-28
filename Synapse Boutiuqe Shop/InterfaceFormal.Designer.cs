@@ -79,7 +79,7 @@
             pictureBox10.BackgroundImage = Properties.Resources.linkdin2;
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Cursor = Cursors.Hand;
-            pictureBox10.Location = new Point(954, 46);
+            pictureBox10.Location = new Point(902, 46);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(32, 32);
@@ -105,7 +105,7 @@
             pictureBox8.BackgroundImage = Properties.Resources.Fb2;
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Cursor = Cursors.Hand;
-            pictureBox8.Location = new Point(640, 46);
+            pictureBox8.Location = new Point(675, 46);
             pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(38, 32);
@@ -307,10 +307,8 @@
             // 
             pictureBox1.BackgroundImage = Properties.Resources.Casual_Style_Fashion_Presentation;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-
             pictureBox1.Location = new Point(89, 8);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
-
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(409, 121);
             pictureBox1.TabIndex = 77;
@@ -380,7 +378,7 @@
             pictureBox3.BackgroundImage = Properties.Resources.lpic;
             pictureBox3.BackgroundImageLayout = ImageLayout.Center;
             pictureBox3.Cursor = Cursors.Hand;
-            pictureBox3.Location = new Point(978, 14);
+            pictureBox3.Location = new Point(980, 15);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(28, 24);

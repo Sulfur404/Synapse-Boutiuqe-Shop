@@ -79,7 +79,7 @@
             pictureBox10.BackgroundImage = Properties.Resources.linkdin2;
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Cursor = Cursors.Hand;
-            pictureBox10.Location = new Point(962, 45);
+            pictureBox10.Location = new Point(929, 45);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(30, 32);
@@ -105,7 +105,7 @@
             pictureBox8.BackgroundImage = Properties.Resources.Fb2;
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Cursor = Cursors.Hand;
-            pictureBox8.Location = new Point(647, 45);
+            pictureBox8.Location = new Point(686, 45);
             pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(36, 32);
@@ -173,7 +173,7 @@
             button7.FlatAppearance.BorderSize = 0;
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.Location = new Point(890, 145);
+            button7.Location = new Point(919, 145);
             button7.Margin = new Padding(3, 2, 3, 2);
             button7.Name = "button7";
             button7.Size = new Size(207, 187);
@@ -463,7 +463,7 @@
             button13.FlatAppearance.BorderSize = 0;
             button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button13.Location = new Point(970, 336);
+            button13.Location = new Point(999, 336);
             button13.Margin = new Padding(3, 2, 3, 2);
             button13.Name = "button13";
             button13.Size = new Size(80, 32);

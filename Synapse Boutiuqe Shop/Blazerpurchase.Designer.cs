@@ -393,7 +393,6 @@
             // 
             // button2
             // 
-            button2.BackgroundImage = Properties.Resources.blazer31;
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Cursor = Cursors.Hand;
             button2.Location = new Point(112, 220);
@@ -567,7 +566,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Brown_and_White_Aesthetic_Thank_You_Poster_Landscape5;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1382, 803);
             Controls.Add(button10);
