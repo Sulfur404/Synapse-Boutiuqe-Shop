@@ -42,7 +42,7 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(10, 9);
+            button1.Location = new Point(1, 2);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(51, 37);
@@ -57,7 +57,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(1310, -9);
+            button2.Location = new Point(1151, -11);
             button2.Name = "button2";
             button2.Size = new Size(35, 59);
             button2.TabIndex = 3;
@@ -72,7 +72,7 @@
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(1340, 3);
+            button3.Location = new Point(1181, 1);
             button3.Name = "button3";
             button3.Size = new Size(32, 38);
             button3.TabIndex = 2;
@@ -86,7 +86,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Contritute;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1384, 811);
+            ClientSize = new Size(1225, 638);
             Controls.Add(button2);
             Controls.Add(button3);
             Controls.Add(button1);

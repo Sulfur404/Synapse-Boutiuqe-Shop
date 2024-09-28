@@ -57,6 +57,13 @@ namespace Synapse_Boutiuqe_Shop
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            UserLogin login = new UserLogin();
+            login.Show();
+            this.Hide();
+        }
     }
 
 }
