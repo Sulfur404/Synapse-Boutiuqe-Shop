@@ -48,5 +48,12 @@ namespace Synapse_Boutiuqe_Shop
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Shipping shipping = new Shipping();
+            shipping.Show();
+            this.Hide();
+        }
     }
 }

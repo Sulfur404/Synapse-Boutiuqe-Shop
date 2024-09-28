@@ -618,6 +618,7 @@
             button10.Size = new Size(120, 88);
             button10.TabIndex = 126;
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // pictureBox11
             // 
@@ -636,7 +637,7 @@
             label12.AutoSize = true;
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Segoe UI Semibold", 18.25F, FontStyle.Bold | FontStyle.Italic);
-            label12.Location = new Point(943, 168);
+            label12.Location = new Point(938, 161);
             label12.Name = "label12";
             label12.Size = new Size(215, 35);
             label12.TabIndex = 128;
@@ -647,7 +648,7 @@
             label13.AutoSize = true;
             label13.BackColor = Color.Transparent;
             label13.Font = new Font("Segoe UI Semibold", 18.25F, FontStyle.Bold | FontStyle.Italic);
-            label13.Location = new Point(941, 163);
+            label13.Location = new Point(936, 156);
             label13.Name = "label13";
             label13.Size = new Size(220, 35);
             label13.TabIndex = 128;
@@ -661,7 +662,7 @@
             button12.Cursor = Cursors.Hand;
             button12.FlatAppearance.BorderSize = 0;
             button12.FlatStyle = FlatStyle.Flat;
-            button12.Location = new Point(972, 207);
+            button12.Location = new Point(967, 200);
             button12.Margin = new Padding(3, 2, 3, 2);
             button12.Name = "button12";
             button12.Size = new Size(156, 148);
@@ -676,7 +677,7 @@
             button13.Cursor = Cursors.Hand;
             button13.FlatAppearance.BorderSize = 0;
             button13.FlatStyle = FlatStyle.Flat;
-            button13.Location = new Point(972, 387);
+            button13.Location = new Point(967, 380);
             button13.Margin = new Padding(3, 2, 3, 2);
             button13.Name = "button13";
             button13.Size = new Size(156, 148);
@@ -688,7 +689,7 @@
             label14.AutoSize = true;
             label14.BackColor = Color.Transparent;
             label14.Font = new Font("Algerian", 15.75F, FontStyle.Italic);
-            label14.Location = new Point(1018, 357);
+            label14.Location = new Point(1013, 350);
             label14.Name = "label14";
             label14.Size = new Size(60, 24);
             label14.TabIndex = 0;
@@ -700,7 +701,7 @@
             label15.AutoSize = true;
             label15.BackColor = Color.Transparent;
             label15.Font = new Font("Algerian", 15.75F, FontStyle.Italic);
-            label15.Location = new Point(1008, 537);
+            label15.Location = new Point(1003, 530);
             label15.Name = "label15";
             label15.Size = new Size(100, 24);
             label15.TabIndex = 0;
@@ -713,7 +714,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Brown_and_White_Aesthetic_Thank_You_Poster_Landscape;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1209, 602);
+            ClientSize = new Size(1225, 638);
             Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(label13);

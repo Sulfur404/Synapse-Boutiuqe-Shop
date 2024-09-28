@@ -236,7 +236,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.DimGray;
-            button3.Location = new Point(1151, -9);
+            button3.Location = new Point(1155, -9);
             button3.Name = "button3";
             button3.Size = new Size(35, 59);
             button3.TabIndex = 8;

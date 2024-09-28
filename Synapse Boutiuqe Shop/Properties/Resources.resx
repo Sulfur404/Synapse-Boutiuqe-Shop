@@ -232,6 +232,9 @@
   <data name="hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="punjabi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\punjabi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AdminLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -451,6 +454,9 @@
   <data name="User Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\User Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="skyblazer-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\skyblazer-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -550,7 +556,7 @@
   <data name="SignupBackground5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="punjabi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\punjabi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
