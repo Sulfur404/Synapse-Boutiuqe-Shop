@@ -79,7 +79,6 @@ namespace Synapse_Boutiuqe_Shop
         {
             WomenInterfaceFormal womenInterfaceFormal = new WomenInterfaceFormal();
             womenInterfaceFormal.Show();
-
             this.Hide();
         }
 

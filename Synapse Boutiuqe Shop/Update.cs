@@ -127,6 +127,9 @@ namespace Synapse_Boutiuqe_Shop
                         MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
+                    UserInformation userInformation = new UserInformation();
+                    userInformation.Show();
+                    this.Hide();
                 }
             }
             else

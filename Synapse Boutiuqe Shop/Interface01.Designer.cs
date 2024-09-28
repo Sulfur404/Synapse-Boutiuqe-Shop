@@ -341,6 +341,7 @@
             button7.TabIndex = 45;
             button7.TextAlign = ContentAlignment.BottomCenter;
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button13
             // 
