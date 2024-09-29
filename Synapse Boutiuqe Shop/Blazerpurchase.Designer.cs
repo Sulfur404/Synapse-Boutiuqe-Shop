@@ -612,7 +612,7 @@
             button10.Cursor = Cursors.Hand;
             button10.FlatAppearance.BorderSize = 0;
             button10.FlatStyle = FlatStyle.Flat;
-            button10.Location = new Point(565, 503);
+            button10.Location = new Point(565, 516);
             button10.Margin = new Padding(3, 2, 3, 2);
             button10.Name = "button10";
             button10.Size = new Size(120, 88);

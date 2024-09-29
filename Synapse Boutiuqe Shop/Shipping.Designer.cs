@@ -119,7 +119,7 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(2, 11);
+            button1.Location = new Point(2, 7);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(36, 37);
@@ -132,7 +132,7 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.mainlogoN;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(231, 12);
+            pictureBox1.Location = new Point(245, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(25, 27);
             pictureBox1.TabIndex = 10;
@@ -143,7 +143,7 @@
             Checkout.AutoSize = true;
             Checkout.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Checkout.ForeColor = Color.FromArgb(64, 64, 64);
-            Checkout.Location = new Point(337, 39);
+            Checkout.Location = new Point(336, 42);
             Checkout.Name = "Checkout";
             Checkout.Size = new Size(79, 21);
             Checkout.TabIndex = 11;
@@ -154,7 +154,7 @@
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImage = Properties.Resources.Passicon;
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(319, 40);
+            pictureBox3.Location = new Point(318, 43);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(18, 19);
@@ -166,7 +166,7 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = Properties.Resources._1x;
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(222, 63);
+            pictureBox2.Location = new Point(225, 79);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(279, 65);
             pictureBox2.TabIndex = 13;
@@ -175,11 +175,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Script MT Bold", 20.25F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(64, 64, 64);
-            label1.Location = new Point(257, 8);
+            label1.Location = new Point(271, 8);
             label1.Name = "label1";
-            label1.Size = new Size(222, 31);
+            label1.Size = new Size(213, 33);
             label1.TabIndex = 14;
             label1.Text = "Synapse Boutiuqe";
             // 
@@ -450,6 +450,7 @@
             button2.TabIndex = 22;
             button2.Text = "Next";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Shipping
             // 
