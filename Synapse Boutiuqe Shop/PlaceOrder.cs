@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Synapse_Boutiuqe_Shop
 {
-    public partial class Payment : Form
+    public partial class PlaceOrder : Form
     {
-        public Payment()
+        public PlaceOrder()
         {
             InitializeComponent();
         }
@@ -24,8 +24,8 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Shipping shipping = new Shipping();
-            shipping.Show();
+            Payment payment = new Payment();
+            payment.Show();
             this.Hide();
         }
 
@@ -34,20 +34,20 @@ namespace Synapse_Boutiuqe_Shop
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void Payment_Load(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            PlaceOrder placeOrder = new PlaceOrder();
-            placeOrder.Show();
+            Interface01 Interface01 = new Interface01();
+            Interface01.Show();
             this.Hide();
         }
     }

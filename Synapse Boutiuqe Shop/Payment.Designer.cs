@@ -173,9 +173,9 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = Properties.Resources.mainlogoN;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(483, 5);
+            pictureBox1.Location = new Point(473, 6);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(25, 27);
+            pictureBox1.Size = new Size(38, 34);
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 
@@ -470,6 +470,7 @@
             button10.Size = new Size(85, 72);
             button10.TabIndex = 127;
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // pictureBox9
             // 
