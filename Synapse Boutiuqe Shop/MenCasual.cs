@@ -48,5 +48,12 @@ namespace Synapse_Boutiuqe_Shop
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Interface01 interface01 = new Interface01();
+            interface01.Show();
+            this.Hide();
+        }
     }
 }

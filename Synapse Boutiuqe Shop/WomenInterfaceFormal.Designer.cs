@@ -79,7 +79,7 @@
             pictureBox10.BackgroundImage = Properties.Resources.linkdin2;
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Cursor = Cursors.Hand;
-            pictureBox10.Location = new Point(929, 45);
+            pictureBox10.Location = new Point(1174, 595);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(30, 32);
@@ -92,7 +92,7 @@
             pictureBox9.BackgroundImage = Properties.Resources.InstaN2;
             pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox9.Cursor = Cursors.Hand;
-            pictureBox9.Location = new Point(807, 45);
+            pictureBox9.Location = new Point(1138, 595);
             pictureBox9.Margin = new Padding(3, 2, 3, 2);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(30, 32);
@@ -105,7 +105,7 @@
             pictureBox8.BackgroundImage = Properties.Resources.Fb2;
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Cursor = Cursors.Hand;
-            pictureBox8.Location = new Point(686, 45);
+            pictureBox8.Location = new Point(1096, 595);
             pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(36, 32);
@@ -238,7 +238,7 @@
             pictureBox6.BackgroundImage = Properties.Resources.cart;
             pictureBox6.BackgroundImageLayout = ImageLayout.Center;
             pictureBox6.Cursor = Cursors.Hand;
-            pictureBox6.Location = new Point(954, 93);
+            pictureBox6.Location = new Point(964, 51);
             pictureBox6.Margin = new Padding(3, 2, 3, 2);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(38, 33);
@@ -249,7 +249,7 @@
             // 
             textBox1.BackColor = Color.Linen;
             textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(647, 98);
+            textBox1.Location = new Point(657, 56);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(302, 23);
@@ -261,7 +261,7 @@
             pictureBox5.BackgroundImage = Properties.Resources.search;
             pictureBox5.BackgroundImageLayout = ImageLayout.Center;
             pictureBox5.Cursor = Cursors.Hand;
-            pictureBox5.Location = new Point(604, 94);
+            pictureBox5.Location = new Point(614, 52);
             pictureBox5.Margin = new Padding(3, 2, 3, 2);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(38, 33);
@@ -316,19 +316,21 @@
             pictureBox7.BackColor = Color.Transparent;
             pictureBox7.BackgroundImage = Properties.Resources.mainlogo;
             pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox7.Cursor = Cursors.Hand;
             pictureBox7.Location = new Point(1024, 42);
             pictureBox7.Margin = new Padding(3, 2, 3, 2);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(129, 99);
             pictureBox7.TabIndex = 101;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(1008, 14);
+            label3.Location = new Point(989, 14);
             label3.Name = "label3";
             label3.Size = new Size(77, 20);
             label3.TabIndex = 100;
@@ -375,7 +377,7 @@
             pictureBox3.BackgroundImage = Properties.Resources.lpic;
             pictureBox3.BackgroundImageLayout = ImageLayout.Center;
             pictureBox3.Cursor = Cursors.Hand;
-            pictureBox3.Location = new Point(980, 13);
+            pictureBox3.Location = new Point(964, 13);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(28, 24);

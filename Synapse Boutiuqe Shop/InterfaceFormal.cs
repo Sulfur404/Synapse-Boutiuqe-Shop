@@ -50,5 +50,12 @@ namespace Synapse_Boutiuqe_Shop
             blazerpurchase.Show();
             this.Hide();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Interface01 interface01 = new Interface01();
+            interface01.Show();
+            this.Hide();
+        }
     }
 }

@@ -50,6 +50,9 @@
             button11 = new Button();
             button1 = new Button();
             panel1 = new Panel();
+            button15 = new Button();
+            button14 = new Button();
+            label16 = new Label();
             button9 = new Button();
             radioButton5 = new RadioButton();
             radioButton4 = new RadioButton();
@@ -139,7 +142,7 @@
             pictureBox10.BackgroundImage = Properties.Resources.linkdin2;
             pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox10.Cursor = Cursors.Hand;
-            pictureBox10.Location = new Point(913, 41);
+            pictureBox10.Location = new Point(1164, 595);
             pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(31, 32);
@@ -152,7 +155,7 @@
             pictureBox9.BackgroundImage = Properties.Resources.InstaN2;
             pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox9.Cursor = Cursors.Hand;
-            pictureBox9.Location = new Point(808, 41);
+            pictureBox9.Location = new Point(1124, 595);
             pictureBox9.Margin = new Padding(3, 2, 3, 2);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(31, 32);
@@ -165,7 +168,7 @@
             pictureBox8.BackgroundImage = Properties.Resources.Fb2;
             pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox8.Cursor = Cursors.Hand;
-            pictureBox8.Location = new Point(687, 41);
+            pictureBox8.Location = new Point(1079, 595);
             pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(37, 32);
@@ -178,7 +181,7 @@
             pictureBox6.BackgroundImage = Properties.Resources.cart;
             pictureBox6.BackgroundImageLayout = ImageLayout.Center;
             pictureBox6.Cursor = Cursors.Hand;
-            pictureBox6.Location = new Point(956, 94);
+            pictureBox6.Location = new Point(959, 66);
             pictureBox6.Margin = new Padding(3, 2, 3, 2);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(38, 33);
@@ -189,7 +192,7 @@
             // 
             textBox1.BackColor = Color.Linen;
             textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(648, 98);
+            textBox1.Location = new Point(651, 70);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(302, 23);
@@ -201,7 +204,7 @@
             pictureBox5.BackgroundImage = Properties.Resources.search;
             pictureBox5.BackgroundImageLayout = ImageLayout.Center;
             pictureBox5.Cursor = Cursors.Hand;
-            pictureBox5.Location = new Point(606, 94);
+            pictureBox5.Location = new Point(609, 66);
             pictureBox5.Margin = new Padding(3, 2, 3, 2);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(38, 33);
@@ -245,12 +248,14 @@
             pictureBox7.BackColor = Color.Transparent;
             pictureBox7.BackgroundImage = Properties.Resources.mainlogo;
             pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox7.Cursor = Cursors.Hand;
             pictureBox7.Location = new Point(1024, 42);
             pictureBox7.Margin = new Padding(3, 2, 3, 2);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(129, 99);
             pictureBox7.TabIndex = 99;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // label3
             // 
@@ -357,10 +362,14 @@
             button1.TabIndex = 120;
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(button15);
+            panel1.Controls.Add(button14);
+            panel1.Controls.Add(label16);
             panel1.Controls.Add(button9);
             panel1.Controls.Add(radioButton5);
             panel1.Controls.Add(radioButton4);
@@ -382,6 +391,51 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(467, 349);
             panel1.TabIndex = 123;
+            // 
+            // button15
+            // 
+            button15.BackgroundImageLayout = ImageLayout.Stretch;
+            button15.Cursor = Cursors.Hand;
+            button15.FlatAppearance.BorderSize = 0;
+            button15.FlatStyle = FlatStyle.Flat;
+            button15.Font = new Font("ROG Fonts", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button15.Location = new Point(97, 300);
+            button15.Margin = new Padding(3, 2, 3, 2);
+            button15.Name = "button15";
+            button15.Size = new Size(30, 35);
+            button15.TabIndex = 131;
+            button15.Text = "-";
+            button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
+            // 
+            // button14
+            // 
+            button14.BackgroundImageLayout = ImageLayout.Stretch;
+            button14.Cursor = Cursors.Hand;
+            button14.FlatAppearance.BorderSize = 0;
+            button14.FlatStyle = FlatStyle.Flat;
+            button14.Font = new Font("ROG Fonts", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button14.Location = new Point(155, 300);
+            button14.Margin = new Padding(3, 2, 3, 2);
+            button14.Name = "button14";
+            button14.Size = new Size(30, 35);
+            button14.TabIndex = 131;
+            button14.Text = "+";
+            button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = Color.Transparent;
+            label16.BorderStyle = BorderStyle.Fixed3D;
+            label16.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.Location = new Point(129, 305);
+            label16.Name = "label16";
+            label16.Size = new Size(26, 28);
+            label16.TabIndex = 130;
+            label16.Text = "1";
+            label16.Click += label16_Click;
             // 
             // button9
             // 
@@ -487,6 +541,7 @@
             button7.Size = new Size(85, 88);
             button7.TabIndex = 8;
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button6
             // 
@@ -501,6 +556,7 @@
             button6.Size = new Size(85, 88);
             button6.TabIndex = 7;
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // label9
             // 
@@ -526,6 +582,7 @@
             button2.Size = new Size(85, 88);
             button2.TabIndex = 5;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label8
             // 
@@ -819,5 +876,8 @@
         private Button button13;
         private Label label14;
         private Label label15;
+        private Label label16;
+        private Button button14;
+        private Button button15;
     }
 }
