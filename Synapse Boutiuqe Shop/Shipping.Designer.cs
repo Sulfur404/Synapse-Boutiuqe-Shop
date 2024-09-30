@@ -32,6 +32,22 @@
             panel1 = new Panel();
             button4 = new Button();
             button3 = new Button();
+            label27 = new Label();
+            label25 = new Label();
+            label24 = new Label();
+            label23 = new Label();
+            label22 = new Label();
+            label21 = new Label();
+            label32 = new Label();
+            label33 = new Label();
+            label31 = new Label();
+            label30 = new Label();
+            label29 = new Label();
+            label28 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            label26 = new Label();
+            label18 = new Label();
             button1 = new Button();
             pictureBox1 = new PictureBox();
             Checkout = new Label();
@@ -63,6 +79,7 @@
             Number = new TextBox();
             checkBox1 = new CheckBox();
             button2 = new Button();
+            label34 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -74,10 +91,28 @@
             panel1.BackColor = Color.Silver;
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button3);
+            panel1.Controls.Add(label27);
+            panel1.Controls.Add(label25);
+            panel1.Controls.Add(label24);
+            panel1.Controls.Add(label23);
+            panel1.Controls.Add(label22);
+            panel1.Controls.Add(label21);
+            panel1.Controls.Add(label32);
+            panel1.Controls.Add(label34);
+            panel1.Controls.Add(label33);
+            panel1.Controls.Add(label31);
+            panel1.Controls.Add(label30);
+            panel1.Controls.Add(label29);
+            panel1.Controls.Add(label28);
+            panel1.Controls.Add(label20);
+            panel1.Controls.Add(label19);
+            panel1.Controls.Add(label26);
+            panel1.Controls.Add(label18);
             panel1.Location = new Point(754, -4);
             panel1.Name = "panel1";
             panel1.Size = new Size(471, 643);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // button4
             // 
@@ -110,6 +145,191 @@
             button3.Text = "-";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label27.ForeColor = Color.FromArgb(64, 64, 64);
+            label27.Location = new Point(60, 459);
+            label27.Name = "label27";
+            label27.Size = new Size(106, 22);
+            label27.TabIndex = 15;
+            label27.Text = "Sub Total";
+            label27.Click += label25_Click;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label25.ForeColor = Color.FromArgb(64, 64, 64);
+            label25.Location = new Point(62, 409);
+            label25.Name = "label25";
+            label25.Size = new Size(49, 22);
+            label25.TabIndex = 15;
+            label25.Text = "VAT";
+            label25.Click += label25_Click;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.ForeColor = Color.FromArgb(64, 64, 64);
+            label24.Location = new Point(61, 372);
+            label24.Name = "label24";
+            label24.Size = new Size(138, 22);
+            label24.TabIndex = 15;
+            label24.Text = "Delivery Fee ";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label23.ForeColor = Color.FromArgb(64, 64, 64);
+            label23.Location = new Point(60, 335);
+            label23.Name = "label23";
+            label23.Size = new Size(69, 22);
+            label23.TabIndex = 15;
+            label23.Text = "Total ";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label22.ForeColor = Color.FromArgb(64, 64, 64);
+            label22.Location = new Point(59, 295);
+            label22.Name = "label22";
+            label22.Size = new Size(104, 22);
+            label22.TabIndex = 15;
+            label22.Text = "Quantity ";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.FromArgb(64, 64, 64);
+            label21.Location = new Point(60, 255);
+            label21.Name = "label21";
+            label21.Size = new Size(65, 22);
+            label21.TabIndex = 15;
+            label21.Text = "Price ";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label32.ForeColor = Color.FromArgb(64, 64, 64);
+            label32.Location = new Point(266, 375);
+            label32.Name = "label32";
+            label32.Size = new Size(28, 18);
+            label32.TabIndex = 15;
+            label32.Text = "$0";
+            label32.Click += label28_Click;
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label33.ForeColor = Color.FromArgb(64, 64, 64);
+            label33.Location = new Point(266, 412);
+            label33.Name = "label33";
+            label33.Size = new Size(18, 18);
+            label33.TabIndex = 15;
+            label33.Text = "0";
+            label33.Click += label28_Click;
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label31.ForeColor = Color.FromArgb(64, 64, 64);
+            label31.Location = new Point(266, 335);
+            label31.Name = "label31";
+            label31.Size = new Size(18, 18);
+            label31.TabIndex = 15;
+            label31.Text = "0";
+            label31.Click += label28_Click;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label30.ForeColor = Color.FromArgb(64, 64, 64);
+            label30.Location = new Point(266, 296);
+            label30.Name = "label30";
+            label30.Size = new Size(18, 18);
+            label30.TabIndex = 15;
+            label30.Text = "0";
+            label30.Click += label28_Click;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label29.ForeColor = Color.FromArgb(64, 64, 64);
+            label29.Location = new Point(266, 254);
+            label29.Name = "label29";
+            label29.Size = new Size(18, 18);
+            label29.TabIndex = 15;
+            label29.Text = "0";
+            label29.Click += label28_Click;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label28.ForeColor = Color.FromArgb(64, 64, 64);
+            label28.Location = new Point(266, 210);
+            label28.Name = "label28";
+            label28.Size = new Size(18, 18);
+            label28.TabIndex = 15;
+            label28.Text = "0";
+            label28.Click += label28_Click;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Lucida Sans", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label20.ForeColor = Color.FromArgb(64, 64, 64);
+            label20.Location = new Point(60, 211);
+            label20.Name = "label20";
+            label20.Size = new Size(88, 22);
+            label20.TabIndex = 15;
+            label20.Text = "Product";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.FromArgb(64, 64, 64);
+            label19.Location = new Point(123, 141);
+            label19.Name = "label19";
+            label19.Size = new Size(256, 32);
+            label19.TabIndex = 15;
+            label19.Text = "Your Order Summary";
+            label19.Click += label19_Click;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("Segoe UI Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label26.ForeColor = Color.FromArgb(64, 64, 64);
+            label26.Location = new Point(60, 425);
+            label26.Name = "label26";
+            label26.Size = new Size(364, 30);
+            label26.TabIndex = 15;
+            label26.Text = "_______________________________________";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI Black", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.FromArgb(64, 64, 64);
+            label18.Location = new Point(125, 148);
+            label18.Name = "label18";
+            label18.Size = new Size(256, 30);
+            label18.TabIndex = 15;
+            label18.Text = "___________________________";
             // 
             // button1
             // 
@@ -452,6 +672,18 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label34.ForeColor = Color.FromArgb(64, 64, 64);
+            label34.Location = new Point(266, 460);
+            label34.Name = "label34";
+            label34.Size = new Size(18, 18);
+            label34.TabIndex = 15;
+            label34.Text = "0";
+            label34.Click += label28_Click;
+            // 
             // Shipping
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -497,6 +729,7 @@
             Text = "Shipping";
             Load += Shipping_Load;
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -540,5 +773,22 @@
         private TextBox Number;
         private CheckBox checkBox1;
         private Button button2;
+        private Label label19;
+        private Label label18;
+        private Label label20;
+        private Label label21;
+        private Label label24;
+        private Label label23;
+        private Label label22;
+        private Label label25;
+        private Label label26;
+        private Label label27;
+        private Label label28;
+        private Label label29;
+        private Label label30;
+        private Label label31;
+        private Label label32;
+        private Label label33;
+        private Label label34;
     }
 }

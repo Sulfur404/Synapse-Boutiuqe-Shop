@@ -391,6 +391,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(467, 349);
             panel1.TabIndex = 123;
+            panel1.Paint += panel1_Paint;
             // 
             // button15
             // 
@@ -810,6 +811,7 @@
             Name = "Blazerpurchase";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PurchaseForm";
+            Load += Blazerpurchase_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();

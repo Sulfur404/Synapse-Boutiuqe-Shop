@@ -12,6 +12,9 @@ namespace Synapse_Boutiuqe_Shop
 {
     public partial class Payment : Form
     {
+        private string a;
+        private string b;
+        private int c;
         public Payment()
         {
             InitializeComponent();
@@ -24,7 +27,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Shipping shipping = new Shipping();
+            Shipping shipping = new Shipping(a,b,c);
             shipping.Show();
             this.Hide();
         }

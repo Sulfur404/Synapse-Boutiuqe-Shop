@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,13 +14,15 @@ namespace Synapse_Boutiuqe_Shop
     public partial class Blazerpurchase : Form
     {
 
-        private String productBlazer = "BLAZER";
-        private String proPrice = "150";
+        private String productBlazer = "Men Breasted Blazer";
+        private String proPrice = "1500";
         private String quantity1 = "1";
-        
+
         public Blazerpurchase()
         {
             InitializeComponent();
+
+            counter[0] = 1;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -56,7 +59,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Shipping shipping = new Shipping();
+            Shipping shipping = new Shipping(productBlazer, proPrice, counter[0]);
             shipping.Show();
             this.Hide();
         }
@@ -101,7 +104,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void label16_Click(object sender, EventArgs e)
         {
-            label16.Text = quantity1.ToString();
+
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -116,6 +119,16 @@ namespace Synapse_Boutiuqe_Shop
             {
                 counter[0]--;
             }
+            label16.Text = counter[0].ToString();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Blazerpurchase_Load(object sender, EventArgs e)
+        {
             label16.Text = counter[0].ToString();
         }
     }
