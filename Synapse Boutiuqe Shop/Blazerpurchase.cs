@@ -102,7 +102,6 @@ namespace Synapse_Boutiuqe_Shop
         private void label16_Click(object sender, EventArgs e)
         {
             label16.Text = quantity1.ToString();
-
         }
 
         private void button14_Click(object sender, EventArgs e)
