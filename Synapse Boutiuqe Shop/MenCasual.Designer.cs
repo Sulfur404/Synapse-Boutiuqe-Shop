@@ -272,7 +272,7 @@
             // button1
             // 
             button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.BackgroundImage = Properties.Resources.shirtc1;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
@@ -286,6 +286,7 @@
             button1.TabIndex = 58;
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -449,6 +450,7 @@
             button11.TabIndex = 120;
             button11.Text = "Shirt";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 

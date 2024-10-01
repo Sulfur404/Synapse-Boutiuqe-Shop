@@ -11,30 +11,16 @@ using System.Windows.Forms;
 
 namespace Synapse_Boutiuqe_Shop
 {
-    public partial class Blazerpurchase : Form
+    public partial class ShirtPurchase : Form
     {
 
-        private String productBlazer = "Men Solid Single Breasted Blazer";
-        private String proPrice = "1500";
+        private String product = "Taaga Man Casual Fusion Shirt";
+        private String proPrice = "320";
         private String quantity1 = "1";
-
-        public Blazerpurchase()
+        public ShirtPurchase()
         {
             InitializeComponent();
-
             counter[0] = 1;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            InterfaceFormal interfaceFormal = new InterfaceFormal();
-            interfaceFormal.Show();
-            this.Hide();
-        }
-
-        private void optionBtn_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -42,26 +28,16 @@ namespace Synapse_Boutiuqe_Shop
             this.Close();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MenCasual menCasual = new MenCasual();
+            menCasual.Show();
+            this.Hide();
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            Shipping shipping = new Shipping(productBlazer, proPrice, counter[0]);
-            shipping.Show();
-            this.Hide();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -74,20 +50,15 @@ namespace Synapse_Boutiuqe_Shop
         private void button2_Click(object sender, EventArgs e)
         {
             button1.BackgroundImage = null;
-            button1.BackgroundImage = Properties.Resources.blazer1;
+            button1.BackgroundImage = Properties.Resources.shirtc1;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Text = "";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             button1.BackgroundImage = null;
-            button1.BackgroundImage = Properties.Resources.blazer2;
+            button1.BackgroundImage = Properties.Resources.shirtc2;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Text = "";
         }
@@ -95,17 +66,19 @@ namespace Synapse_Boutiuqe_Shop
         private void button7_Click(object sender, EventArgs e)
         {
             button1.BackgroundImage = null;
-            button1.BackgroundImage = Properties.Resources.blazer3;
+            button1.BackgroundImage = Properties.Resources.shirtc3;
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Text = "";
         }
 
-        int[] counter = new int[1];
-
-        private void label16_Click(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
-
+            Shipping shiping = new Shipping(product, proPrice, counter[0]);
+            shiping.Show();
+            this.Hide();
         }
+
+        int[] counter = new int[1];
 
         private void button14_Click(object sender, EventArgs e)
         {
@@ -122,12 +95,7 @@ namespace Synapse_Boutiuqe_Shop
             label16.Text = counter[0].ToString();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Blazerpurchase_Load(object sender, EventArgs e)
+        private void label16_Click(object sender, EventArgs e)
         {
             label16.Text = counter[0].ToString();
         }

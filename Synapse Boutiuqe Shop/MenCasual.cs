@@ -12,6 +12,7 @@ namespace Synapse_Boutiuqe_Shop
 {
     public partial class MenCasual : Form
     {
+
         public MenCasual()
         {
             InitializeComponent();
@@ -53,6 +54,20 @@ namespace Synapse_Boutiuqe_Shop
         {
             Interface01 interface01 = new Interface01();
             interface01.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShirtPurchase shirtPurchase = new ShirtPurchase();
+            shirtPurchase.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ShirtPurchase shirtPurchase = new ShirtPurchase();
+            shirtPurchase.Show();
             this.Hide();
         }
     }

@@ -79,6 +79,8 @@
             button13 = new Button();
             label14 = new Label();
             label15 = new Label();
+            label17 = new Label();
+            pictureBox12 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -91,6 +93,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // button3
@@ -367,6 +370,8 @@
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(label17);
+            panel1.Controls.Add(pictureBox12);
             panel1.Controls.Add(button15);
             panel1.Controls.Add(button14);
             panel1.Controls.Add(label16);
@@ -597,10 +602,10 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label7.Location = new Point(24, 90);
+            label7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label7.Location = new Point(25, 92);
             label7.Name = "label7";
-            label7.Size = new Size(52, 20);
+            label7.Size = new Size(72, 25);
             label7.TabIndex = 3;
             label7.Text = "$1500 ";
             // 
@@ -766,6 +771,29 @@
             label15.Text = "PUNJABI ";
             label15.Click += label4_Click;
             // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label17.Location = new Point(386, 92);
+            label17.Name = "label17";
+            label17.Size = new Size(64, 20);
+            label17.TabIndex = 145;
+            label17.Text = "3.9 (169)";
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.BackColor = Color.Transparent;
+            pictureBox12.BackgroundImage = Properties.Resources.rating;
+            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox12.Cursor = Cursors.Hand;
+            pictureBox12.Location = new Point(303, 66);
+            pictureBox12.Margin = new Padding(3, 2, 3, 2);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(80, 73);
+            pictureBox12.TabIndex = 144;
+            pictureBox12.TabStop = false;
+            // 
             // Blazerpurchase
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -825,6 +853,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -881,5 +910,7 @@
         private Label label16;
         private Button button14;
         private Button button15;
+        private Label label17;
+        private PictureBox pictureBox12;
     }
 }

@@ -39,6 +39,7 @@
             label22 = new Label();
             label21 = new Label();
             label32 = new Label();
+            label34 = new Label();
             label33 = new Label();
             label31 = new Label();
             label30 = new Label();
@@ -79,7 +80,6 @@
             Number = new TextBox();
             checkBox1 = new CheckBox();
             button2 = new Button();
-            label34 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -226,6 +226,18 @@
             label32.Text = "$0";
             label32.Click += label28_Click;
             // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label34.ForeColor = Color.FromArgb(64, 64, 64);
+            label34.Location = new Point(266, 460);
+            label34.Name = "label34";
+            label34.Size = new Size(18, 18);
+            label34.TabIndex = 15;
+            label34.Text = "0";
+            label34.Click += label28_Click;
+            // 
             // label33
             // 
             label33.AutoSize = true;
@@ -279,7 +291,7 @@
             label28.AutoSize = true;
             label28.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label28.ForeColor = Color.FromArgb(64, 64, 64);
-            label28.Location = new Point(266, 210);
+            label28.Location = new Point(205, 211);
             label28.Name = "label28";
             label28.Size = new Size(18, 18);
             label28.TabIndex = 15;
@@ -671,18 +683,6 @@
             button2.Text = "Next";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
-            // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label34.ForeColor = Color.FromArgb(64, 64, 64);
-            label34.Location = new Point(266, 460);
-            label34.Name = "label34";
-            label34.Size = new Size(18, 18);
-            label34.TabIndex = 15;
-            label34.Text = "0";
-            label34.Click += label28_Click;
             // 
             // Shipping
             // 
