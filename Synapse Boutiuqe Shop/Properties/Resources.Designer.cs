@@ -693,6 +693,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dresspant {
+            get {
+                object obj = ResourceManager.GetObject("dresspant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dresspant2 {
             get {
                 object obj = ResourceManager.GetObject("dresspant2", resourceCulture);
@@ -1716,6 +1726,26 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap vest1 {
             get {
                 object obj = ResourceManager.GetObject("vest1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vest2 {
+            get {
+                object obj = ResourceManager.GetObject("vest2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vest3 {
+            get {
+                object obj = ResourceManager.GetObject("vest3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

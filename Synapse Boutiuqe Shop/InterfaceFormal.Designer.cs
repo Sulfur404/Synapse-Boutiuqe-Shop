@@ -215,6 +215,7 @@
             button2.TabIndex = 84;
             button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -462,6 +463,7 @@
             button12.TabIndex = 120;
             button12.Text = "Vest";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 

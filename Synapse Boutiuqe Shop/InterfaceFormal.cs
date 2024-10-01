@@ -57,5 +57,19 @@ namespace Synapse_Boutiuqe_Shop
             interface01.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VestPurshase vestPurshase = new VestPurshase();
+            vestPurshase.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            VestPurshase vestPurshase = new VestPurshase();
+            vestPurshase.Show();
+            this.Hide();
+        }
     }
 }
