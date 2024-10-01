@@ -190,6 +190,7 @@
             passwordTextbox.PasswordChar = '*';
             passwordTextbox.Size = new Size(194, 24);
             passwordTextbox.TabIndex = 32;
+            passwordTextbox.TextChanged += passwordTextbox_TextChanged;
             // 
             // userTextbox
             // 
@@ -301,7 +302,7 @@
             ForgotPassBtn.FlatAppearance.BorderSize = 0;
             ForgotPassBtn.FlatStyle = FlatStyle.Flat;
             ForgotPassBtn.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ForgotPassBtn.Location = new Point(899, 350);
+            ForgotPassBtn.Location = new Point(908, 344);
             ForgotPassBtn.Margin = new Padding(3, 2, 3, 2);
             ForgotPassBtn.Name = "ForgotPassBtn";
             ForgotPassBtn.Size = new Size(145, 35);
@@ -342,13 +343,14 @@
             RemembermeCb.AutoSize = true;
             RemembermeCb.BackColor = Color.Transparent;
             RemembermeCb.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            RemembermeCb.Location = new Point(758, 355);
+            RemembermeCb.Location = new Point(754, 350);
             RemembermeCb.Margin = new Padding(3, 2, 3, 2);
             RemembermeCb.Name = "RemembermeCb";
-            RemembermeCb.Size = new Size(126, 24);
+            RemembermeCb.Size = new Size(129, 24);
             RemembermeCb.TabIndex = 38;
-            RemembermeCb.Text = "Remember me";
+            RemembermeCb.Text = "Show Password";
             RemembermeCb.UseVisualStyleBackColor = false;
+            RemembermeCb.CheckedChanged += RemembermeCb_CheckedChanged;
             // 
             // UserLogin
             // 

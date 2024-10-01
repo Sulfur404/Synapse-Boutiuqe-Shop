@@ -49,6 +49,7 @@
             button4 = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            RemembermeCb = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -220,7 +221,7 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(870, 427);
+            button2.Location = new Point(874, 445);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(132, 61);
@@ -260,6 +261,20 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // RemembermeCb
+            // 
+            RemembermeCb.AutoSize = true;
+            RemembermeCb.BackColor = Color.Transparent;
+            RemembermeCb.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            RemembermeCb.Location = new Point(794, 411);
+            RemembermeCb.Margin = new Padding(3, 2, 3, 2);
+            RemembermeCb.Name = "RemembermeCb";
+            RemembermeCb.Size = new Size(129, 24);
+            RemembermeCb.TabIndex = 39;
+            RemembermeCb.Text = "Show Password";
+            RemembermeCb.UseVisualStyleBackColor = false;
+            RemembermeCb.CheckedChanged += RemembermeCb_CheckedChanged;
+            // 
             // AdminLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -267,6 +282,7 @@
             BackgroundImage = Properties.Resources.AdminLogin;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1225, 638);
+            Controls.Add(RemembermeCb);
             Controls.Add(button3);
             Controls.Add(button4);
             Controls.Add(button2);
@@ -318,5 +334,6 @@
         private Button button4;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private CheckBox RemembermeCb;
     }
 }

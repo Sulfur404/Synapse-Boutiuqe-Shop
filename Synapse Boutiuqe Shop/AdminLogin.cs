@@ -51,7 +51,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(userTextbox.Text) && !string.IsNullOrEmpty(passwordTextbox.Text))
+            if (!string.IsNullOrEmpty(userTextbox.Text) && !string.IsNullOrEmpty(passwordTextbox.Text))
             {
                 String username;
                 String password;
@@ -66,14 +66,14 @@ namespace Synapse_Boutiuqe_Shop
                     {
                         con.Open();
 
-                        string query = "  select * from admin where Username='"+userTextbox.Text+"' and Password='"+passwordTextbox.Text+"'";
+                        string query = "  select * from admin where Username='" + userTextbox.Text + "' and Password='" + passwordTextbox.Text + "'";
 
                         SqlDataAdapter sda = new SqlDataAdapter(query, con);
 
                         DataTable dt = new DataTable();
                         sda.Fill(dt);
 
-                        if(dt.Rows.Count > 0)
+                        if (dt.Rows.Count > 0)
                         {
                             username = userTextbox.Text;
                             password = userTextbox.Text;
@@ -91,7 +91,7 @@ namespace Synapse_Boutiuqe_Shop
                             userTextbox.Focus();
                         }
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
@@ -114,6 +114,18 @@ namespace Synapse_Boutiuqe_Shop
         {
             this.WindowState = FormWindowState.Minimized;
 
+        }
+
+        private void RemembermeCb_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RemembermeCb.Checked)
+            {
+                passwordTextbox.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                passwordTextbox.UseSystemPasswordChar = false;
+            }
         }
     }
 }

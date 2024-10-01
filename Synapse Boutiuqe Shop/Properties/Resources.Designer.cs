@@ -763,6 +763,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ForgotPassword {
+            get {
+                object obj = ResourceManager.GetObject("ForgotPassword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Getready2 {
             get {
                 object obj = ResourceManager.GetObject("Getready2", resourceCulture);
@@ -1176,6 +1186,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap mencasual {
             get {
                 object obj = ResourceManager.GetObject("mencasual", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewPass {
+            get {
+                object obj = ResourceManager.GetObject("NewPass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
-            button1 = new Button();
-            button4 = new Button();
-            button5 = new Button();
             LoginForm = new Panel();
             bcaptcha = new Label();
             username = new TextBox();
@@ -68,56 +65,11 @@
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
+            button1 = new Button();
+            button5 = new Button();
+            button4 = new Button();
             LoginForm.SuspendLayout();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = Properties.Resources.Back;
-            button1.BackgroundImageLayout = ImageLayout.Stretch;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(1, 3);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(36, 37);
-            button1.TabIndex = 20;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Transparent;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.DimGray;
-            button4.Location = new Point(1137, -9);
-            button4.Name = "button4";
-            button4.Size = new Size(35, 59);
-            button4.TabIndex = 23;
-            button4.Text = "-";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.Transparent;
-            button5.Cursor = Cursors.Hand;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.ForeColor = Color.DimGray;
-            button5.Location = new Point(1166, 3);
-            button5.Name = "button5";
-            button5.Size = new Size(32, 38);
-            button5.TabIndex = 22;
-            button5.Text = "X";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
             // 
             // LoginForm
             // 
@@ -593,6 +545,54 @@
             label3.TabIndex = 7;
             label3.Text = "________________________";
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.BackgroundImage = Properties.Resources.Back;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(1, 3);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(36, 37);
+            button1.TabIndex = 20;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Transparent;
+            button5.Cursor = Cursors.Hand;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.ForeColor = Color.DimGray;
+            button5.Location = new Point(1180, 3);
+            button5.Name = "button5";
+            button5.Size = new Size(32, 38);
+            button5.TabIndex = 22;
+            button5.Text = "X";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Transparent;
+            button4.Cursor = Cursors.Hand;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.DimGray;
+            button4.Location = new Point(1151, -9);
+            button4.Name = "button4";
+            button4.Size = new Size(35, 59);
+            button4.TabIndex = 23;
+            button4.Text = "-";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
             // SignUp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -616,9 +616,6 @@
         }
 
         #endregion
-        private Button button1;
-        private Button button4;
-        private Button button5;
         private Panel LoginForm;
         private Label bcaptcha;
         private TextBox username;
@@ -655,5 +652,8 @@
         private Label label5;
         private Label label4;
         private Label label3;
+        private Button button1;
+        private Button button5;
+        private Button button4;
     }
 }

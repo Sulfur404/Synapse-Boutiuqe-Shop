@@ -37,7 +37,9 @@ namespace Synapse_Boutiuqe_Shop
 
         private void ForgotPassBtn_Click(object sender, EventArgs e)
         {
-
+            ForgotPassword forgotPassword = new ForgotPassword();
+            forgotPassword.Show();
+            this.Hide();
         }
 
         private void UserLogin_Load(object sender, EventArgs e)
@@ -105,6 +107,23 @@ namespace Synapse_Boutiuqe_Shop
             {
                 MessageBox.Show("Please fill up all required information.", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void RemembermeCb_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RemembermeCb.Checked)
+            {
+                passwordTextbox.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                passwordTextbox.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void passwordTextbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

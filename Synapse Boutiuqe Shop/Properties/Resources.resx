@@ -142,6 +142,9 @@
   <data name="Admin Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Admin Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Add User1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Add User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Show" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -298,8 +301,8 @@
   <data name="Brown and White Aesthetic Thank You Poster Landscape (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Add User1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Add User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aline21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\aline2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="linkdin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\linkdin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,8 +325,8 @@
   <data name="Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dresspant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dresspant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Getready21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Getready2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,6 +352,9 @@
   <data name="shirt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\shirt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blazer12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\blazer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -357,6 +363,9 @@
   </data>
   <data name="payment patner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\payment patner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForgotPassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ForgotPassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grafictee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\grafictee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -376,14 +385,14 @@
   <data name="kaftan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\kaftan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\vest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Brown and White Aesthetic Thank You Poster Landscape (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Brown and White Aesthetic Thank You Poster Landscape (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ccare" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\ccare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdminLogin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2024-09-24 1147411" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Screenshot 2024-09-24 114741.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -523,9 +532,6 @@
   <data name="skyblazer-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\skyblazer-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kimono2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\kimono2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="wb032" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\wb03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -538,8 +544,8 @@
   <data name="Add User" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Add User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AdminLogin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\AdminLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kimono2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kimono2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -598,8 +604,8 @@
   <data name="Payoneer-Logo.wine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Payoneer-Logo.wine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aline21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\aline2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\vest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="womentraditional" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\womentraditional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -652,7 +658,7 @@
   <data name="SignupBackground5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\SignupBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dresspant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\dresspant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NewPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\NewPass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
