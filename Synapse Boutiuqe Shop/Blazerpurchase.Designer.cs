@@ -50,6 +50,8 @@
             button11 = new Button();
             button1 = new Button();
             panel1 = new Panel();
+            label17 = new Label();
+            pictureBox12 = new PictureBox();
             button15 = new Button();
             button14 = new Button();
             label16 = new Label();
@@ -79,8 +81,6 @@
             button13 = new Button();
             label14 = new Label();
             label15 = new Label();
-            label17 = new Label();
-            pictureBox12 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
@@ -92,8 +92,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // button3
@@ -397,6 +397,29 @@
             panel1.Size = new Size(467, 349);
             panel1.TabIndex = 123;
             panel1.Paint += panel1_Paint;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label17.Location = new Point(386, 92);
+            label17.Name = "label17";
+            label17.Size = new Size(64, 20);
+            label17.TabIndex = 145;
+            label17.Text = "4.5 (661)";
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.BackColor = Color.Transparent;
+            pictureBox12.BackgroundImage = Properties.Resources.rating;
+            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox12.Cursor = Cursors.Hand;
+            pictureBox12.Location = new Point(303, 66);
+            pictureBox12.Margin = new Padding(3, 2, 3, 2);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(80, 73);
+            pictureBox12.TabIndex = 144;
+            pictureBox12.TabStop = false;
             // 
             // button15
             // 
@@ -771,29 +794,6 @@
             label15.Text = "PUNJABI ";
             label15.Click += label4_Click;
             // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label17.Location = new Point(386, 92);
-            label17.Name = "label17";
-            label17.Size = new Size(64, 20);
-            label17.TabIndex = 145;
-            label17.Text = "3.9 (169)";
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.BackColor = Color.Transparent;
-            pictureBox12.BackgroundImage = Properties.Resources.rating;
-            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox12.Cursor = Cursors.Hand;
-            pictureBox12.Location = new Point(303, 66);
-            pictureBox12.Margin = new Padding(3, 2, 3, 2);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(80, 73);
-            pictureBox12.TabIndex = 144;
-            pictureBox12.TabStop = false;
-            // 
             // Blazerpurchase
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -852,8 +852,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

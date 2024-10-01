@@ -289,11 +289,11 @@
             // label28
             // 
             label28.AutoSize = true;
-            label28.Font = new Font("Lucida Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label28.Font = new Font("Lucida Sans", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label28.ForeColor = Color.FromArgb(64, 64, 64);
             label28.Location = new Point(205, 211);
             label28.Name = "label28";
-            label28.Size = new Size(18, 18);
+            label28.Size = new Size(15, 15);
             label28.TabIndex = 15;
             label28.Text = "0";
             label28.Click += label28_Click;

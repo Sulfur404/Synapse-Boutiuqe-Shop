@@ -40,5 +40,19 @@ namespace Synapse_Boutiuqe_Shop
             interface01.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            GownPurchase gownPurchase = new GownPurchase();
+            gownPurchase.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            GownPurchase gownPurchase = new GownPurchase();
+            gownPurchase.Show();
+            this.Hide();
+        }
     }
 }

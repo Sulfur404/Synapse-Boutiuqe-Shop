@@ -214,6 +214,7 @@
             button2.TabIndex = 109;
             button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -225,10 +226,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.Transparent;
-            button1.Location = new Point(125, 145);
+            button1.Location = new Point(141, 145);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(207, 187);
+            button1.Size = new Size(185, 187);
             button1.TabIndex = 108;
             button1.UseVisualStyleBackColor = false;
             // 
@@ -457,6 +458,7 @@
             button12.TabIndex = 119;
             button12.Text = "Gown";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
