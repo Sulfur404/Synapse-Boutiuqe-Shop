@@ -50,5 +50,19 @@ namespace Synapse_Boutiuqe_Shop
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KimonoPurshase kimonoPurshase = new KimonoPurshase();
+            kimonoPurshase.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            KimonoPurshase kimonoPurshase = new KimonoPurshase();
+            kimonoPurshase.Show();
+            this.Hide();
+        }
     }
 }

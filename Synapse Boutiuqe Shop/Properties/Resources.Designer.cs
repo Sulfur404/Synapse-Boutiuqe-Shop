@@ -953,6 +953,16 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kimono2 {
+            get {
+                object obj = ResourceManager.GetObject("kimono2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Line_g {
             get {
                 object obj = ResourceManager.GetObject("Line g", resourceCulture);
@@ -1556,6 +1566,26 @@ namespace Synapse_Boutiuqe_Shop.Properties {
         internal static System.Drawing.Bitmap skyblazer_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("skyblazer-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skykimono {
+            get {
+                object obj = ResourceManager.GetObject("skykimono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skykimono1 {
+            get {
+                object obj = ResourceManager.GetObject("skykimono1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
