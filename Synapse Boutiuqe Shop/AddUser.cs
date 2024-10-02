@@ -75,22 +75,22 @@ namespace Synapse_Boutiuqe_Shop
             LoginForm.BackColor = Color.FromArgb(100, 0, 0, 0);
 
             Random random = new Random();
-            int num = random.Next(6,8);
-            int total = 0; 
+            int num = random.Next(6, 8);
+            int total = 0;
             string captcha = "";
             do
             {
                 int chr = random.Next(48, 123);
-                if((chr >= 48 && chr <= 57) || (chr >=65 && chr <= 90) || (chr >= 97 && chr <= 122))
+                if ((chr >= 48 && chr <= 57) || (chr >= 65 && chr <= 90) || (chr >= 97 && chr <= 122))
                 {
                     captcha += (char)chr;
                     total++;
-                    if(total == num)
+                    if (total == num)
                         break;
                     {
 
                     }
-        
+
                 }
             } while (true);
             lbcaptcha.Text = captcha;
@@ -104,6 +104,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void button3_Click(object sender, EventArgs e)
         {
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             if (!string.IsNullOrEmpty(firstname.Text) &&
                 !string.IsNullOrEmpty(lastname.Text) &&
                 !string.IsNullOrEmpty(date.Text) &&
@@ -116,14 +117,19 @@ namespace Synapse_Boutiuqe_Shop
                 !string.IsNullOrEmpty(captcha.Text) &&
                 !string.IsNullOrEmpty(email.Text))
             {
-                
+
                 if (lbcaptcha.Text != captcha.Text)
                 {
                     MessageBox.Show("Captcha is Incorrect! Please try again", "Warning!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return; 
+                    return;
                 }
 
-                
+                if (!System.Text.RegularExpressions.Regex.IsMatch(email.Text, emailPattern))
+                {
+                    MessageBox.Show("Invalid Email Address! Please enter a valid email.", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 string connectionString = "Data Source=MOSTAFI-NAFIS\\SQLEXPRESS;Initial Catalog=\"Synapse Boutiuqe Shop\";Integrated Security=True;";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
@@ -167,5 +173,14 @@ namespace Synapse_Boutiuqe_Shop
             }
         }
 
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

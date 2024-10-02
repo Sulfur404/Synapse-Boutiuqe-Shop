@@ -81,7 +81,7 @@ namespace Synapse_Boutiuqe_Shop
             try
             {
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("foolman978@gmail.com");
+                mail.From = new MailAddress("mtnafis10@gmail.com");
                 mail.To.Add(email);
                 mail.Subject = "Your Password Recovery Code";
                 mail.Body = $"Hello {username},\n\nYour password recovery code is: {verificationCode}\n\nRegards,\nSynapse Boutique Shop";
@@ -89,7 +89,7 @@ namespace Synapse_Boutiuqe_Shop
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com")
                 {
                     Port = 587,
-                    Credentials = new NetworkCredential("foolman978@gmail.com", "jbmk uvzm sude ixuj"),
+                    Credentials = new NetworkCredential("mrnafis10@gmail.com", "nizi tzjo mgmr acyv"),
                     EnableSsl = true,
                 };
 

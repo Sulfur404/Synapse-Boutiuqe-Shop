@@ -171,7 +171,7 @@
             panel2.Controls.Add(deletebtn1);
             panel2.Location = new Point(586, 469);
             panel2.Name = "panel2";
-            panel2.Size = new Size(120, 115);
+            panel2.Size = new Size(118, 139);
             panel2.TabIndex = 6;
             // 
             // deletebtn2
@@ -179,9 +179,9 @@
             deletebtn2.Cursor = Cursors.Hand;
             deletebtn2.FlatAppearance.BorderSize = 0;
             deletebtn2.FlatStyle = FlatStyle.Flat;
-            deletebtn2.Font = new Font("Lucida Handwriting", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            deletebtn2.Font = new Font("Lucida Handwriting", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             deletebtn2.ForeColor = SystemColors.ControlLight;
-            deletebtn2.Location = new Point(2, 73);
+            deletebtn2.Location = new Point(5, 74);
             deletebtn2.Name = "deletebtn2";
             deletebtn2.Size = new Size(98, 42);
             deletebtn2.TabIndex = 5;

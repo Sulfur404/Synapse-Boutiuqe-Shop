@@ -108,6 +108,7 @@ namespace Synapse_Boutiuqe_Shop
 
         private void adduseerBtn_Click(object sender, EventArgs e)
         {
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             if (!string.IsNullOrEmpty(firstname.Text) &&
                 !string.IsNullOrEmpty(lastname.Text) &&
                 !string.IsNullOrEmpty(date.Text) &&
@@ -124,6 +125,11 @@ namespace Synapse_Boutiuqe_Shop
                 if (bcaptcha.Text != captcha.Text)
                 {
                     MessageBox.Show("Captcha is Incorrect! Please try again", "Warning!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (!System.Text.RegularExpressions.Regex.IsMatch(email.Text, emailPattern))
+                {
+                    MessageBox.Show("Invalid Email Address! Please enter a valid email.", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
